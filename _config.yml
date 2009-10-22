@@ -1,0 +1,24 @@
+destination: ./_site
+auto:        false
+lsi:         false
+server_port: 4000
+pygments:    true
+markdown:    maruku
+permalink:   date
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_dir:    images/latex
+  png_url:    /images/latex
+# JRuby-specific info here; goes into the "site" jekyll variable
+release:
+  version: 1.4.0RC2
+  tar: http://jruby.kenai.com/downloads/1.4.0RC2/jruby-bin-1.4.0RC2.tar.gz
+  zip: http://jruby.kenai.com/downloads/1.4.0RC2/jruby-bin-1.4.0RC2.zip
+  exe: http://jruby.kenai.com/downloads/1.4.0RC2/jruby_windows_1_4_0RC2.exe
+  exejre: http://jruby.kenai.com/downloads/1.4.0RC2/jruby_windowsjre_1_4_0RC2.exe
+urls:
+  jira: http://jira.codehaus.org/browse/JRUBY
+  wiki: http://kenai.com/projects/jruby/pages/Home
+team_email: user@jruby.codehaus.org
+domain: www.jruby.org
