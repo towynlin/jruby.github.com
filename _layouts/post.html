@@ -11,6 +11,9 @@
     {% include banner.html %}
     <div id="content">
       <div id="white">
+        <h2>{{ page.title }}</h>
+        <h3>{{ page.date | date: "%A, %B %d %Y" }}</h3>
+
         {{ content }}
       </div>
     </div>

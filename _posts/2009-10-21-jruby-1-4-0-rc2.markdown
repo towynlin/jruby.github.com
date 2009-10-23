@@ -1,11 +1,11 @@
 ---
-layout: main
+layout: post
 title: JRuby 1.4.0RC2 Released
 ---
 The JRuby community is pleased to announce the release of JRuby 1.4.0RC2.
 
 * Homepage: http://www.jruby.org/
-* Download: www.jruby.org/download
+* Download: http://www.jruby.org/download
 
 The JRuby 1.4.0 release ends a long release cycle in which we resolved
 a huge number of issues. The headline feature is a move to Ruby 1.8.7
@@ -21,13 +21,13 @@ Due to the overwhelming feedback we got from RC1, we have fixed a
 number of reported issues (shown below) for RC2. We expect that this
 will be our last RC before 1.4.0 final.
 
-**Please try your apps against 1.4.0RC2 ASAP and report problems**
+**Please try your apps against 1.4.0RC2 ASAP and report problems.**
 
 ### 1.4.0RC2 Highlights:
 
 * Windows Native Launcher
-** Solves many reported bugs with our old .bat scripts
 
+  * Solves many reported bugs with our old .bat scripts
 
 ### 1.4.0RC1 Highlights:
 

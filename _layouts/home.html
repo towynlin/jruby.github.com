@@ -2,13 +2,7 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>JRuby.org :: {{ page.title }}</title>
-  <link rel="shortcut icon" href="/favicon.ico" />
-  <link rel="stylesheet" href="/stylesheets/main.css" type="text/css" media="screen" title="no title" charset="utf-8" />
-  <!--[if IE 7]><link rel="stylesheet" href="/stylesheets/ie7_hacks.css" type="text/css" media="screen" title="no title" charset="utf-8" /><![endif]-->
-  <!--[if IE 6]><link rel="stylesheet" href="/stylesheets/ie6_hacks.css" type="text/css" media="screen" title="no title" charset="utf-8" /><![endif]-->
-  <script src="/javascripts/jquery.js" type="text/javascript"></script>
+  {% include head.html %}
   <link href="/stylesheets/carousel.css" media="screen" rel="stylesheet" type="text/css" />
   <script src="/javascripts/jquery-easing.1.2.pack.js" type="text/javascript"></script>
   <script src="/javascripts/jquery-easing-compatibility.1.2.pack.js" type="text/javascript"></script>
@@ -36,10 +30,10 @@
     <div class="wrapper">
       <div id="news">
         <h2><a href="/atom.xml"><img src="/images/rss.png"/></a>RECENT NEWS</h2>
-        {% assign post = posts[0] %}
-        <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
-        {{ posts[0].content | truncate: 300 }}
-        <p><a href="{{ posts.permalink }}"><i>more...</i></a></p>
+        {% assign post = site.posts.first] %}
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        {{ post.content | truncate: 500 }}
+        <p><a href="{{ post.url }}"><i>more...</i></a></p>
       </div>
 
       <div id="twitter">
