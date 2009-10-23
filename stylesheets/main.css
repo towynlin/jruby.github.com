@@ -39,8 +39,17 @@ width:925px;
 margin:0px auto;
 }
 
-#content h1, #content h2, #content h3, #content p {
+#content h1, #content h2, #content h3, .body > p, .body > ol, .body > ul {
     margin-bottom: 1em;
+}
+
+#content ul, #content ol {
+    margin-left: 2.5em;
+    padding-left: 0;
+}
+
+.body {
+    margin-bottom: 3em;
 }
 
 /*------Main Nav-------*/
