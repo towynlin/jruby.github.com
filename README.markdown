@@ -9,11 +9,13 @@ The site is generated with Jekyll, and while you can use the regular
 1. (One time only) Install Bundler (`gem install bundler`) and run
    `gem bundle` once.
 2. Run rake to see the available tasks:
-    JRuby.org documentation site. Available tasks:
-    rake clean     # Clean the site
-    rake deploy    # Deploy the files to jruby.org
-    rake generate  # Generate the site using Jekyll
-    rake server    # Run a file server that serves and regenerates the files
+
+      JRuby.org documentation site. Available tasks:
+      rake clean     # Clean the site
+      rake deploy    # Deploy the files to jruby.org
+      rake generate  # Generate the site using Jekyll
+      rake server    # Run a file server that serves and regenerates the files
+
 3. `rake server` runs a server with a small Rack shim that emulates
    the Apache configuration on jruby.org, so you can browse the site.
    It also emulates Jekyll's `--auto` mode so that files are refreshed
