@@ -1,4 +1,8 @@
 # -*- ruby -*-
+#
+# This rackup file runs the equivalent of jekyll --server --auto, but
+# uses Rack to add a couple of rewrite rules to make it equivalent to the
+# Apache configuration.
 
 ### This section copied from bin/jekyll file
 require 'jekyll'
@@ -38,6 +42,11 @@ end
 dw.start
 
 ### Rackup server stuff starts here
+
+# Emulate the following Apache config:
+# * / => /index.html
+# * RewriteRule ([^.]+)$ $1.html
+# * ErrorDocument 404 /404.html
 class DotHtmlRewriter
   def initialize(app, fourohfour)
     @app = app
@@ -45,7 +54,7 @@ class DotHtmlRewriter
   end
 
   def call(env)
-    env["PATH_INFO"] += "index" if env["PATH_INFO"] =~ /\/$/
+    env["PATH_INFO"] += "index.html" if env["PATH_INFO"] =~ /\/$/
     result = @app.call(env)
     if result[0] == 404 && env["PATH_INFO"] !~ /\.html$/
       env["PATH_INFO"] += ".html"
