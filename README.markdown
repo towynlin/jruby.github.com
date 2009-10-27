@@ -31,3 +31,8 @@ consult with the JRuby team before making large changes. Thanks!
 
 [Jekyll]: http://wiki.github.com/mojombo/jekyll
 [JIRA]: http://jira.codehaus.org/browse/JRUBY
+
+# TODO
+
+Clear content under Creative Commons and publish a license for the
+content as such.
