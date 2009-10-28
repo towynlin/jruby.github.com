@@ -16,10 +16,10 @@ end
 
 desc "Deploy the files to jruby.org"
 task :deploy => :generate do
-  rm_f "jruby_site.tgz"
-  sh "tar -C _site/ -zcf jruby_site.tgz ."
-  sh "scp jruby_site.tgz jruby.org:/tmp"
-  sh "ssh jruby.org 'cd /home/apps/jruby/public && umask 0002 && tar zxf /tmp/jruby_site.tgz && rm -f /tmp/jruby_site.tgz'"
+  sh "tar -C _site/ -zcf - . | ssh jruby.org 'cd /home/apps/jruby/public" +
+    " && umask 0002 && UMASK=0002 tar --delay-directory-restore -zxf -'" do |ok,status|
+    puts "It's safe to ignore errors from remote tar command."
+  end
 end
 
 task :default do
