@@ -4,27 +4,29 @@ title: Downloads
 ---
 # JRuby Downloads
 
-## Current Release: JRuby 1.4.0RC2
+## Current Release: JRuby 1.4.0RC3
 
-JRuby 1.4.0RC2 is the second release candidate in the series leading
+JRuby 1.4.0RC3 is the third release candidate in the series leading
 to the 1.4.0 release.
 
 - Now Compatible with Ruby 1.8.7
 - New windows installer
 - New embedding api
 - Improved 1.9 support
-- [Full release notes](/2009/10/21/jruby-1-4-0-rc2)
+- [Full release notes](/2009/10/28/jruby-1-4-0-rc3)
  
-{% assign path = 'http://jruby.kenai.com/downloads/1.4.0RC2/' %}
-{% capture bin %}{{path}}jruby-bin-1.4.0RC2{% endcapture %}
-{% capture src %}{{path}}jruby-src-1.4.0RC2{% endcapture %}
-[JRuby 1.4.0RC2 Binary .tar.gz]({{bin}}.tar.gz) ([md5]({{bin}}.tar.gz.md5), [sha1]({{bin}}.tar.gz.sha1))<br/>
-[JRuby 1.4.0RC2 Binary .zip]({{bin}}.zip) ([md5]({{bin}}.zip.md5), [sha1]({{bin}}.zip.sha1))<br/>
-[JRuby 1.4.0RC2 Windows Executable]({{path}}jruby_windows_1_4_0RC2.exe)<br/>
-[JRuby 1.4.0RC2 Windows Executable+JRE]({{path}}jruby_windowsjre_1_4_0RC2.exe)<br/>
-[JRuby 1.4.0RC2 Source .tar.gz]({{src}}.tar.gz) ([md5]({{src}}.tar.gz.md5), [sha1]({{src}}.tar.gz.sha1))<br/>
-[JRuby 1.4.0RC2 Source .zip]({{src}}.zip) ([md5]({{src}}.zip.md5), [sha1]({{src}}.zip.sha1))<br/>
-[JRuby 1.4.0RC2 Complete .jar]({{path}}jruby-complete-1.4.0RC2.jar) ([md5]({{path}}jruby-complete-1.4.0RC2.jar.md5), [sha1]({{path}}jruby-complete-1.4.0RC2.jar.sha1))<br/>
+{% assign path = 'http://jruby.kenai.com/downloads/1.4.0RC3/' %}
+{% capture bin %}{{path}}jruby-bin-1.4.0RC3{% endcapture %}
+{% capture src %}{{path}}jruby-src-1.4.0RC3{% endcapture %}
+{% capture exe %}{{path}}jruby_windows_1_4_0RC3.exe{% endcapture %}
+{% capture exejre %}{{path}}jruby_windowsjre_1_4_0RC3.exe{% endcapture %}
+[JRuby 1.4.0RC3 Binary .tar.gz]({{bin}}.tar.gz) ([md5]({{bin}}.tar.gz.md5), [sha1]({{bin}}.tar.gz.sha1))<br/>
+[JRuby 1.4.0RC3 Binary .zip]({{bin}}.zip) ([md5]({{bin}}.zip.md5), [sha1]({{bin}}.zip.sha1))<br/>
+[JRuby 1.4.0RC3 Windows Executable]({{exe}}) ([md5]({{exe}}.md5), [sha1]({{exe}}.sha1))<br/>
+[JRuby 1.4.0RC3 Windows Executable+JRE]({{exejre}}) ([md5]({{exejre}}.md5), [sha1]({{exejre}}.sha1))<br/>
+[JRuby 1.4.0RC3 Source .tar.gz]({{src}}.tar.gz) ([md5]({{src}}.tar.gz.md5), [sha1]({{src}}.tar.gz.sha1))<br/>
+[JRuby 1.4.0RC3 Source .zip]({{src}}.zip) ([md5]({{src}}.zip.md5), [sha1]({{src}}.zip.sha1))<br/>
+[JRuby 1.4.0RC3 Complete .jar]({{path}}jruby-complete-1.4.0RC3.jar) ([md5]({{path}}jruby-complete-1.4.0RC3.jar.md5), [sha1]({{path}}jruby-complete-1.4.0RC3.jar.sha1))<br/>
 
 ## Previous Release: JRuby 1.3.1
 
