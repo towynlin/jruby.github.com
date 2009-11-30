@@ -2,25 +2,28 @@
   <div class="wrapper">
     <div id="menu" class="menu">
       <ul>
-        <li id="page_1" class="depth-1 first on">
+        <li id="page_1" class="depth-1 first {% if page.title contains "Home" %}on{% endif %}">
           <a href="/">Home</a>
         </li>
-        <li id="page_5" class="depth-1">
+        <li id="page_5" class="depth-1 {% if page.title contains "News" %}on{% endif %}">
           <a href="/news">News</a>
         </li>
-        <li id="page_8" class="depth-1">
+        <li id="page_8" class="depth-1 {% if page.title contains "Download" %}on{% endif %}">
           <a href="/download">Download</a>
         </li>
-        <li id="page_10" class="depth-1">
+        <li id="page_10" class="depth-1 {% if page.title contains "Getting Started" %}on{% endif %}">
           <a href="/getting-started">Getting Started</a>
         </li>
-        <li id="page_9" class="depth-1">
+        <li id="page_9" class="depth-1 {% if page.title contains "Community" %}on{% endif %}">
           <a href="/community">Community</a>
         </li>
-        <li id="page_13" class="depth-1">
+        <li id="page_13" class="depth-1 {% if page.title contains "Documentation" %}on{% endif %}">
           <a href="/documentation">Documentation</a>
         </li>
-        <li id="page_14" class="depth-1 last">
+        <li id="page_15" class="depth-1 {% if page.title contains "Security" %}on{% endif %}">
+          <a href="/security">Security</a>
+        </li>
+        <li id="page_14" class="depth-1 last {% if page.title contains "Contribut" %}on{% endif %}">
           <a href="/contribute">Contribute</a>
         </li>
       </ul>
