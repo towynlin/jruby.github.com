@@ -39,7 +39,7 @@ width:925px;
 margin:0px auto;
 }
 
-#content h1, #content h2, #content h3, .body > p, .body > ol, .body > ul {
+#content h1, #content h2, #content h3, .body > p, .body > ol, .body > ul, .body > pre {
     margin-bottom: 1em;
 }
 
