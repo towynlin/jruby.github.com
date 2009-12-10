@@ -22,5 +22,5 @@ urls:
   jira: http://jira.codehaus.org/browse/JRUBY
   wiki: http://kenai.com/projects/jruby/pages/Home
   lists: http://kenai.com/projects/jruby/pages/MailingLists
-team_email: user@jruby.codehaus.org
+team_email: team@jruby.org
 domain: www.jruby.org
