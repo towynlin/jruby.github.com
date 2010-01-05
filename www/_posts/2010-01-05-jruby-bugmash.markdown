@@ -12,4 +12,8 @@ The first ever official JRuby BugMash will take place this Saturday, January 9th
 
 The JRuby Core Team will be around on IRC channel [#jruby](irc://irc.freenode.net/%23jruby) throughout the BugMash to help folks get started and to answer questions. Be sure to stop in and say hello!
 
+![bug trail](/images/jruby-bug-chart-jan-2010.png)
+
+*JRuby created (red) vs. resolved (green) bugs over the past 120 days*
+
 [intro]: http://bit.ly/jruby-intro
