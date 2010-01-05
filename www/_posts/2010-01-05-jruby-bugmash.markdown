@@ -8,8 +8,8 @@ The JRuby project has been growing impressively quickly, with frequent releases 
 
 As with any growing code base though, there's a need to keep things tidy; frequent releases and speedy development also mean bugs, and things that need fixing--and that's where we turn to you!
 
-The first ever official JRuby BugMash will take place this Saturday, January 9th through Tuesday, January 12th. The core team will spend the days prior to the BugMash highlighting the specific bugs that are most important--you'll want to keep an eye out for the [HelpWanted section][helpwanted]. Then, Saturday morning, it's off to the races! [Join us on IRC](irc://irc.freenode.net/%23jruby) (#jruby on irc.freenode.net), ask for help getting started, make suggestions, and participate!
+The first ever official JRuby BugMash will take place this Saturday, January 9th through Tuesday, January 12th. The core team will spend the days prior to the BugMash highlighting the specific bugs that are most important--you'll want to keep an eye out for the [Intro section][intro]. Then, Saturday morning, it's off to the races! As a small token of our appreciation, in addition to the wonderful satisfaction of having made a difference to the project, we'll be sending each of the first 100 participants a limited edition JRubyConf Poster. There are some more 'tokens of appreciation' up our sleeves for the top contributors, but we'll keep those secret for now.
 
-As a small token of our appreciation, in addition to the wonderful satisfaction of having made a difference to the project, we'll be sending each of the first 100 participants a limited edition JRubyConf Poster. There are some more 'tokens of appreciation' up our sleeves for the top contributors, but we'll keep those secret for now.
+The JRuby Core Team will be around on IRC channel [#jruby](irc://irc.freenode.net/%23jruby) throughout the BugMash to help folks get started and to answer questions. Be sure to stop in and say hello!
 
-[helpwanted]: http://bit.ly/jruby-help-wanted
+[intro]: http://bit.ly/jruby-intro
