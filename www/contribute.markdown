@@ -6,9 +6,9 @@ title: Contributing to JRuby
   
 JRuby depends on community contributions to survive. Here's how you can get involved:
 
-**Get the Source** - The JRuby source is co-located in both a Kenai.com repository and a GitHub repository.
+**Get the Source** - The JRuby source is stored in our Git repository at JRuby.org and mirrored at GitHub.
 
-- **Kenai.com**: [**Browse**](http://kenai.com/projects/jruby/sources/main/show) &nbsp;|&nbsp;[**Checkout**](git://kenai.com/jruby~main)
+- **JRuby.org**: [**Browse**](http://www.jruby.org/git?p=jruby.git;a=summary) &nbsp;|&nbsp;[**Checkout**](git://jruby.org/jruby.git)
 - **GitHub**: [**Browse**](http://github.com/jruby/jruby) &nbsp;|&nbsp;[**Checkout**](git://github.com/jruby/jruby.git)
 
 **Build JRuby** - Once you've checked out the source, you just need to run &quot;ant&quot;&nbsp;or &quot;ant jar&quot;&nbsp;to build and &quot;ant test&quot;&nbsp;to run our test suite. We depend on <a href="http://ant.apache.org/">Apache Ant</a> 1.7.0 or higher.
