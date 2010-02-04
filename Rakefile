@@ -16,10 +16,7 @@ end
 
 desc "Deploy the files to jruby.org"
 task :deploy => :generate do
-  sh "tar -C _site/ -zcf - . | ssh jruby.org 'cd /home/apps/jruby/public" +
-    " && umask 0002 && UMASK=0002 tar --delay-directory-restore -zxf -'" do |ok,status|
-    puts "It's safe to ignore errors from remote tar command."
-  end
+  sh "tar -C _site/ -zcf - . | ssh deploy@jruby.org 'cd /data/jruby.org && tar zxf -'"
 end
 
 task :default do
