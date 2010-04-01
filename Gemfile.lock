@@ -1,0 +1,37 @@
+--- 
+dependencies: 
+  rack: 
+    group: 
+    - :default
+    version: = 1.0.0
+  mojombo-jekyll: 
+    group: 
+    - :default
+    version: ">= 0"
+specs: 
+- classifier: 
+    version: 1.3.1
+- maruku: 
+    version: 0.6.0
+- directory_watcher: 
+    version: 1.3.1
+- syntax: 
+    version: 1.0.0
+- rack: 
+    version: 1.0.0
+- mojombo-jekyll: 
+    version: 0.5.4
+- stemmer: 
+    version: 1.0.1
+- RedCloth: 
+    version: 4.2.3
+- liquid: 
+    version: 2.0.0
+- open4: 
+    version: 1.0.1
+hash: 9540012571d55fcd100a2ff75fc952f55e334d15
+sources: 
+- Rubygems: 
+    uri: http://gems.github.com
+- Rubygems: 
+    uri: http://gems.rubyforge.org
