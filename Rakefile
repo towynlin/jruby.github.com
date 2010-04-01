@@ -5,13 +5,13 @@ end
 
 desc "Generate the site using Jekyll"
 task :generate do
-  ruby "bin/jekyll"
+  ruby "-S bundle exec jekyll"
 end
 task :gen => :generate
 
 desc "Run a file server that serves and regenerates the files"
 task :server  do
-  ruby "bin/rackup"
+  ruby "-S bundle exec rackup"
 end
 
 desc "Deploy the files to jruby.org"
