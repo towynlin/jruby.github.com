@@ -2,104 +2,120 @@
 layout: main
 title: Downloads
 ---
-# JRuby Downloads
 
-## Current Release: JRuby 1.4.0
+<h1 id='jruby_downloads'>JRuby Downloads</h1>
 
-JRuby 1.4.0 is our next installment of the JRuby 1.x series.  Notable new features include:
+<h2 id='current_release_jruby_140'>Current Release: JRuby 1.4.0</h2>
 
-- Now Compatible with Ruby 1.8.7
-- New windows installer
-- New embedding api
-- Improved 1.9 support
-- [Full release notes](/2009/11/02/jruby-1-4-0)
- 
-{% assign path = 'http://jruby.kenai.com/downloads/1.4.0/' %}
-{% capture bin %}{{path}}jruby-bin-1.4.0{% endcapture %}
-{% capture src %}{{path}}jruby-src-1.4.0{% endcapture %}
-{% capture exe %}{{path}}jruby_windows_1_4_0.exe{% endcapture %}
-{% capture exejre %}{{path}}jruby_windowsjre_1_4_0.exe{% endcapture %}
-[JRuby 1.4.0 Binary .tar.gz]({{bin}}.tar.gz) ([md5]({{bin}}.tar.gz.md5), [sha1]({{bin}}.tar.gz.sha1))<br/>
-[JRuby 1.4.0 Binary .zip]({{bin}}.zip) ([md5]({{bin}}.zip.md5), [sha1]({{bin}}.zip.sha1))<br/>
-[JRuby 1.4.0 Windows Executable]({{exe}}) ([md5]({{exe}}.md5), [sha1]({{exe}}.sha1))<br/>
-[JRuby 1.4.0 Windows Executable+JRE]({{exejre}}) ([md5]({{exejre}}.md5), [sha1]({{exejre}}.sha1))<br/>
-[JRuby 1.4.0 Source .tar.gz]({{src}}.tar.gz) ([md5]({{src}}.tar.gz.md5), [sha1]({{src}}.tar.gz.sha1))<br/>
-[JRuby 1.4.0 Source .zip]({{src}}.zip) ([md5]({{src}}.zip.md5), [sha1]({{src}}.zip.sha1))<br/>
-[JRuby 1.4.0 Complete .jar]({{path}}jruby-complete-1.4.0.jar) ([md5]({{path}}jruby-complete-1.4.0.jar.md5), [sha1]({{path}}jruby-complete-1.4.0.jar.sha1))<br/>
+<p>JRuby 1.4.0 is our next installment of the JRuby 1.x series. Notable new features include:</p>
 
-## Previous Release: JRuby 1.3.1
+<ul>
+<li>Now Compatible with Ruby 1.8.7</li>
+<li>New windows installer</li>
+<li>New embedding api</li>
+<li>Improved 1.9 support</li>
+<li><a href='/2009/11/02/jruby-1-4-0'>Full release notes</a></li>
+</ul>
+  
+<p class="trackDownloads">
+<a href='http://jruby.kenai.com/downloads/1.4.0/jruby-bin-1.4.0.tar.gz'>JRuby 1.4.0 Binary .tar.gz</a>
+(<a href='http://jruby.kenai.com/downloads/1.4.0/jruby-bin-1.4.0.tar.gz.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.4.0/jruby-bin-1.4.0.tar.gz.sha1'>sha1</a>)<br />
+<a href='http://jruby.kenai.com/downloads/1.4.0/jruby-bin-1.4.0.zip'>JRuby 1.4.0 Binary .zip</a>
+(<a href='http://jruby.kenai.com/downloads/1.4.0/jruby-bin-1.4.0.zip.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.4.0/jruby-bin-1.4.0.zip.sha1'>sha1</a>)<br />
+<a href='http://jruby.kenai.com/downloads/1.4.0/jruby_windows_1_4_0.exe'>JRuby 1.4.0 Windows Executable</a>
+(<a href='http://jruby.kenai.com/downloads/1.4.0/jruby_windows_1_4_0.exe.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.4.0/jruby_windows_1_4_0.exe.sha1'>sha1</a>)<br />
+<a href='http://jruby.kenai.com/downloads/1.4.0/jruby_windowsjre_1_4_0.exe'>JRuby 1.4.0 Windows Executable+JRE</a>
+(<a href='http://jruby.kenai.com/downloads/1.4.0/jruby_windowsjre_1_4_0.exe.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.4.0/jruby_windowsjre_1_4_0.exe.sha1'>sha1</a>)<br />
+<a href='http://jruby.kenai.com/downloads/1.4.0/jruby-src-1.4.0.tar.gz'>JRuby 1.4.0 Source .tar.gz</a>
+(<a href='http://jruby.kenai.com/downloads/1.4.0/jruby-src-1.4.0.tar.gz.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.4.0/jruby-src-1.4.0.tar.gz.sha1'>sha1</a>)<br />
+<a href='http://jruby.kenai.com/downloads/1.4.0/jruby-src-1.4.0.zip'>JRuby 1.4.0 Source .zip</a>
+(<a href='http://jruby.kenai.com/downloads/1.4.0/jruby-src-1.4.0.zip.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.4.0/jruby-src-1.4.0.zip.sha1'>sha1</a>)<br />
+<a href='http://jruby.kenai.com/downloads/1.4.0/jruby-complete-1.4.0.jar'>JRuby 1.4.0 Complete .jar</a>
+(<a href='http://jruby.kenai.com/downloads/1.4.0/jruby-complete-1.4.0.jar.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.4.0/jruby-complete-1.4.0.jar.sha1'>sha1</a>)<br />
+</p>
 
-JRuby 1.3.1 is a minor bug fix release which:
+<h2 id='previous_release_jruby_131'>Previous Release: JRuby 1.3.1</h2>
 
-- Fixes a recently discovered security bug in BigDecimal
-- Fixes a regression in timeout (0-1 second timeouts truncate to 0)
-- Fixes a regression Thread.wakeup where the thread would not wake up
-- [Full release notes](/2009/06/15/jruby-1-3-1)
+<p>JRuby 1.3.1 is a minor bug fix release which:</p>
 
-{% assign path = 'http://jruby.kenai.com/downloads/1.3.1/' %}
-{% capture bin %}{{path}}jruby-bin-1.3.1{% endcapture %}
-{% capture src %}{{path}}jruby-src-1.3.1{% endcapture %}
-[JRuby 1.3.1 Binary .tar.gz]({{bin}}.tar.gz) ([md5]({{bin}}.tar.gz.md5), [sha1]({{bin}}.tar.gz.sha1))<br/>
-[JRuby 1.3.1 Binary .zip]({{bin}}.zip) ([md5]({{bin}}.zip.md5), [sha1]({{bin}}.zip.sha1))<br/>
-[JRuby 1.3.1 Source .tar.gz]({{src}}.tar.gz) ([md5]({{src}}.tar.gz.md5), [sha1]({{src}}.tar.gz.sha1))<br/>
-[JRuby 1.3.1 Source .zip]({{src}}.zip) ([md5]({{src}}.zip.md5), [sha1]({{src}}.zip.sha1))<br/>
-[JRuby 1.3.1 Complete .jar]({{path}}jruby-complete-1.3.1.jar) ([md5]({{path}}jruby-complete-1.3.1.jar.md5), [sha1]({{path}}jruby-complete-1.3.1.jar.sha1))<br/>
+<ul>
+<li>Fixes a recently discovered security bug in BigDecimal</li>
+<li>Fixes a regression in timeout (0-1 second timeouts truncate to 0)</li>
+<li>Fixes a regression Thread.wakeup where the thread would not wake up</li>
+<li><a href='/2009/06/15/jruby-1-3-1'>Full release notes</a></li>
+</ul>
+  
+<p class="trackDownloads"><a href='http://jruby.kenai.com/downloads/1.3.1/jruby-bin-1.3.1.tar.gz'>JRuby 1.3.1 Binary .tar.gz</a> (<a href='http://jruby.kenai.com/downloads/1.3.1/jruby-bin-1.3.1.tar.gz.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.3.1/jruby-bin-1.3.1.tar.gz.sha1'>sha1</a>)<br /> <a href='http://jruby.kenai.com/downloads/1.3.1/jruby-bin-1.3.1.zip'>JRuby 1.3.1 Binary .zip</a> (<a href='http://jruby.kenai.com/downloads/1.3.1/jruby-bin-1.3.1.zip.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.3.1/jruby-bin-1.3.1.zip.sha1'>sha1</a>)<br /> <a href='http://jruby.kenai.com/downloads/1.3.1/jruby-src-1.3.1.tar.gz'>JRuby 1.3.1 Source .tar.gz</a> (<a href='http://jruby.kenai.com/downloads/1.3.1/jruby-src-1.3.1.tar.gz.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.3.1/jruby-src-1.3.1.tar.gz.sha1'>sha1</a>)<br /> <a href='http://jruby.kenai.com/downloads/1.3.1/jruby-src-1.3.1.zip'>JRuby 1.3.1 Source .zip</a> (<a href='http://jruby.kenai.com/downloads/1.3.1/jruby-src-1.3.1.zip.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.3.1/jruby-src-1.3.1.zip.sha1'>sha1</a>)<br /> <a href='http://jruby.kenai.com/downloads/1.3.1/jruby-complete-1.3.1.jar'>JRuby 1.3.1 Complete .jar</a> (<a href='http://jruby.kenai.com/downloads/1.3.1/jruby-complete-1.3.1.jar.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.3.1/jruby-complete-1.3.1.jar.sha1'>sha1</a>)<br /></p>
 
-## Previous Release: JRuby 1.3.0
+<h2 id='previous_release_jruby_130'>Previous Release: JRuby 1.3.0</h2>
 
-The fixes in this release are primarily obvious compatibility problems
-and performance enhancements. Our goal is to put out point releases
-more frequently for the next several months (about 3-4 weeks a
-release). We want a more rapid release cycle to better address issues
-brought up by users of JRuby.
+<p>The fixes in this release are primarily obvious compatibility problems and performance enhancements. Our goal is to put out point releases more frequently for the next several months (about 3-4 weeks a release). We want a more rapid release cycle to better address issues brought up by users of JRuby.</p>
 
-{% assign path = 'http://jruby.kenai.com/downloads/1.3.0/' %}
-{% capture bin %}{{path}}jruby-bin-1.3.0{% endcapture %}
-{% capture src %}{{path}}jruby-src-1.3.0{% endcapture %}
-[JRuby 1.3.0 Binary .tar.gz]({{bin}}.tar.gz) ([md5]({{bin}}.tar.gz.md5), [sha1]({{bin}}.tar.gz.sha1))<br/>
-[JRuby 1.3.0 Binary .zip]({{bin}}.zip) ([md5]({{bin}}.zip.md5), [sha1]({{bin}}.zip.sha1))<br/>
-[JRuby 1.3.0 Source .tar.gz]({{src}}.tar.gz) ([md5]({{src}}.tar.gz.md5), [sha1]({{src}}.tar.gz.sha1))<br/>
-[JRuby 1.3.0 Source .zip]({{src}}.zip) ([md5]({{src}}.zip.md5), [sha1]({{src}}.zip.sha1))<br/>
-[JRuby 1.3.0 Complete .jar]({{path}}jruby-complete-1.3.0.jar) ([md5]({{path}}jruby-complete-1.3.0.jar.md5), [sha1]({{path}}jruby-complete-1.3.0.jar.sha1))<br/>
+<p class="trackDownloads">
+<a href='http://jruby.kenai.com/downloads/1.3.0/jruby-bin-1.3.0.tar.gz'>JRuby 1.3.0 Binary .tar.gz</a> (<a href='http://jruby.kenai.com/downloads/1.3.0/jruby-bin-1.3.0.tar.gz.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.3.0/jruby-bin-1.3.0.tar.gz.sha1'>sha1</a>)<br /> <a href='http://jruby.kenai.com/downloads/1.3.0/jruby-bin-1.3.0.zip'>JRuby 1.3.0 Binary .zip</a> (<a href='http://jruby.kenai.com/downloads/1.3.0/jruby-bin-1.3.0.zip.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.3.0/jruby-bin-1.3.0.zip.sha1'>sha1</a>)<br /> <a href='http://jruby.kenai.com/downloads/1.3.0/jruby-src-1.3.0.tar.gz'>JRuby 1.3.0 Source .tar.gz</a> (<a href='http://jruby.kenai.com/downloads/1.3.0/jruby-src-1.3.0.tar.gz.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.3.0/jruby-src-1.3.0.tar.gz.sha1'>sha1</a>)<br /> <a href='http://jruby.kenai.com/downloads/1.3.0/jruby-src-1.3.0.zip'>JRuby 1.3.0 Source .zip</a> (<a href='http://jruby.kenai.com/downloads/1.3.0/jruby-src-1.3.0.zip.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.3.0/jruby-src-1.3.0.zip.sha1'>sha1</a>)<br /> <a href='http://jruby.kenai.com/downloads/1.3.0/jruby-complete-1.3.0.jar'>JRuby 1.3.0 Complete .jar</a> (<a href='http://jruby.kenai.com/downloads/1.3.0/jruby-complete-1.3.0.jar.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.3.0/jruby-complete-1.3.0.jar.sha1'>sha1</a>)<br />
+</p>
 
-Highlights:
+<p>Highlights:</p>
 
-- Fixes so that JRuby runs in restricted environments better like GAE/J
-- Accessing primitive Java arrays are about 10x faster
-- timeout.rb is now ~40% faster
-- Method cache performance improvements
-- irb works in `--1.9` mode now
-- Additional Miscellaneous 1.9 fixes
-- rubygems 1.3.3, rake 0.8.7, and rspec 1.2.6 upgrades
-- 66 bugs fixed since 1.2.0
+<ul>
+<li>Fixes so that JRuby runs in restricted environments better like GAE/J</li>
+<li>Accessing primitive Java arrays are about 10x faster</li>
+<li>timeout.rb is now ~40% faster</li>
+<li>Method cache performance improvements</li>
+<li>irb works in <code>--1.9</code> mode now</li>
+<li>Additional Miscellaneous 1.9 fixes</li>
+<li>rubygems 1.3.3, rake 0.8.7, and rspec 1.2.6 upgrades</li>
+<li>66 bugs fixed since 1.2.0</li>
+</ul>
 
-## Previous Release: JRuby 1.2.0
+<h2 id='previous_release_jruby_120'>Previous Release: JRuby 1.2.0</h2>
 
-JRuby 1.2.0 has fixed many many compatibility issues and continued to
-improve general performance.  Due to popular demand we have a new versioning
-system.  1.x.y was our old number system where x was the major release and y
-was the minor release.  Our new system just chops off the vestigial '1.' from
-the front.  1.3, 1.4, ..., 1.x will just be minor releases of our current
-major release.
+<p>JRuby 1.2.0 has fixed many many compatibility issues and continued to improve general performance. Due to popular demand we have a new versioning system. 1.x.y was our old number system where x was the major release and y was the minor release. Our new system just chops off the vestigial &#8216;1.&#8217; from the front. 1.3, 1.4, &#8230;, 1.x will just be minor releases of our current major release.</p>
 
-{% assign path = 'http://jruby.kenai.com/downloads/1.2.0/' %}
-{% capture bin %}{{path}}jruby-bin-1.2.0{% endcapture %}
-{% capture src %}{{path}}jruby-src-1.2.0{% endcapture %}
-[JRuby 1.2.0 Binary .tar.gz]({{bin}}.tar.gz) ([md5]({{bin}}.tar.gz.md5), [sha1]({{bin}}.tar.gz.sha1))<br/>
-[JRuby 1.2.0 Binary .zip]({{bin}}.zip) ([md5]({{bin}}.zip.md5), [sha1]({{bin}}.zip.sha1))<br/>
-[JRuby 1.2.0 Source .tar.gz]({{src}}.tar.gz) ([md5]({{src}}.tar.gz.md5), [sha1]({{src}}.tar.gz.sha1))<br/>
-[JRuby 1.2.0 Source .zip]({{src}}.zip) ([md5]({{src}}.zip.md5), [sha1]({{src}}.zip.sha1))<br/>
+<p class="trackDownloads">
+<a href='http://jruby.kenai.com/downloads/1.2.0/jruby-bin-1.2.0.tar.gz'>JRuby 1.2.0 Binary .tar.gz</a> (<a href='http://jruby.kenai.com/downloads/1.2.0/jruby-bin-1.2.0.tar.gz.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.2.0/jruby-bin-1.2.0.tar.gz.sha1'>sha1</a>)<br /> <a href='http://jruby.kenai.com/downloads/1.2.0/jruby-bin-1.2.0.zip'>JRuby 1.2.0 Binary .zip</a> (<a href='http://jruby.kenai.com/downloads/1.2.0/jruby-bin-1.2.0.zip.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.2.0/jruby-bin-1.2.0.zip.sha1'>sha1</a>)<br /> <a href='http://jruby.kenai.com/downloads/1.2.0/jruby-src-1.2.0.tar.gz'>JRuby 1.2.0 Source .tar.gz</a> (<a href='http://jruby.kenai.com/downloads/1.2.0/jruby-src-1.2.0.tar.gz.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.2.0/jruby-src-1.2.0.tar.gz.sha1'>sha1</a>)<br /> <a href='http://jruby.kenai.com/downloads/1.2.0/jruby-src-1.2.0.zip'>JRuby 1.2.0 Source .zip</a> (<a href='http://jruby.kenai.com/downloads/1.2.0/jruby-src-1.2.0.zip.md5'>md5</a>, <a href='http://jruby.kenai.com/downloads/1.2.0/jruby-src-1.2.0.zip.sha1'>sha1</a>)<br />
+</p>
 
-Highlights:
+<p>Highlights:</p>
 
-- Improved Ruby 1.9 support (via `--1.9`)
-  - Compiler now works
-  - Almost all of the missing 1.9 methods have been added
-- New experimental --fast flag which does more aggressive optimizations
-- Large scale compiler and runtime cleanup and performance audit
-- Parsing is 3-6x faster now.
-- Preliminary android support (Ruboto)
-- Rails pathname issue fixed on Windows
-- Major bug triage since last release
-- 1052 revisions since 1.1.6
-- 256 bugs fixed since 1.1.6
+<ul>
+<li>
+<p>Improved Ruby 1.9 support (via <code>--1.9</code>)</p>
+<ul>
+<li>Compiler now works</li>
+<li>Almost all of the missing 1.9 methods have been added</li>
+</ul>
+</li>
+
+<li>
+<p>New experimental &#8211;fast flag which does more aggressive optimizations</p>
+</li>
+
+<li>
+<p>Large scale compiler and runtime cleanup and performance audit</p>
+</li>
+
+<li>
+<p>Parsing is 3-6x faster now.</p>
+</li>
+
+<li>
+<p>Preliminary android support (Ruboto)</p>
+</li>
+
+<li>
+<p>Rails pathname issue fixed on Windows</p>
+</li>
+
+<li>
+<p>Major bug triage since last release</p>
+</li>
+
+<li>
+<p>1052 revisions since 1.1.6</p>
+</li>
+
+<li>
+<p>256 bugs fixed since 1.1.6</p>
+</li>
+</ul>
