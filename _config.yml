@@ -19,6 +19,7 @@ release:
   exe: http://jruby.org.s3.amazonaws.com/downloads/1.4.0/jruby_windows_1_4_0.exe
   exejre: http://jruby.org.s3.amazonaws.com/downloads/1.4.0/jruby_windowsjre_1_4_0.exe
 urls:
+  s3: http://jruby.org.s3.amazonaws.com/downloads
   jira: http://jira.codehaus.org/browse/JRUBY
   wiki: http://kenai.com/projects/jruby/pages/Home
   lists: http://kenai.com/projects/jruby/pages/MailingLists

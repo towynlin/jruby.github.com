@@ -49,9 +49,9 @@ task :indexes => 's3manifest.xml' do
     dirs[File.dirname(f)] << f
   end
   top = "www/files"
-  mkdir_p top
+  mkdir_p top, :verbose => false
   dirs.each do |dir,entries|
-    mkdir_p File.expand_path(File.join(top, dir))
+    mkdir_p File.expand_path(File.join(top, dir)), :verbose => false
     File.open(File.expand_path(File.join(top, dir, "index.html")), "wb") do |html|
       html.puts <<HDR
 ---
@@ -59,7 +59,7 @@ layout: main
 title: Files/#{dir == '.' ? '' : dir}
 ---
 <h1>Files/#{dir == '.' ? '' : dir}</h1>
-<div>
+<p class="trackDownloads">
 HDR
       parent = File.dirname(dir)
       parent = parent == '.' ? '' : "#{parent}/"
@@ -71,7 +71,7 @@ HDR
           html.puts "  <a href='http://jruby.org.s3.amazonaws.com/#{entry}'>#{File.basename(entry)}</a><br/>"
         end
       end
-      html.puts "</div>"
+      html.puts "</p>"
     end
   end
 end
