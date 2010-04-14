@@ -39,6 +39,7 @@ file 's3manifest.xml' do |t|
   end
 end
 
+desc "Create browsable index.html files for S3"
 task :indexes => 's3manifest.xml' do
   entries = manifest_xml.root.elements.to_a('/ListBucketResult/Contents/Key').map do |el|
     el.text.strip.sub(/_\$folder\$$/, '/')
