@@ -1,7 +1,6 @@
 <div id="latest_release">
-  <p>Latest release - {{ site.release.version }}</p>
-  <p><a href="/download">View Release Notes</a></p>
-  <p class="trackDownloads">Download:
+  <p>Latest release - <a href="{{ site.release.url }}">{{ site.release.version }}</a></p>
+  <p class="trackDownloads"><a href="/download">Download</a>:
   <a href="{{ site.release.tar }}">tar</a>,
   <a href="{{ site.release.zip }}">zip</a>,
   <a href="{{ site.release.exe }}">exe</a>,
