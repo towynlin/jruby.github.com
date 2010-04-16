@@ -32,6 +32,10 @@ def manifest_xml(stream = File.new('s3manifest.xml'))
   @doc ||= REXML::Document.new(stream)
 end
 
+def manifest_entries
+  manifest_xml.root.elements.to_a('/ListBucketResult/Contents/Key')
+end
+
 file 's3manifest.xml' do |t|
   require 'open-uri'
   open("http://jruby.org.s3.amazonaws.com/") do |xml|
@@ -41,7 +45,7 @@ end
 
 desc "Create browsable index.html files for S3"
 task :indexes => 's3manifest.xml' do
-  entries = manifest_xml.root.elements.to_a('/ListBucketResult/Contents/Key').map do |el|
+  entries = manifest_entries.map do |el|
     el.text.strip.sub(/_\$folder\$$/, '/')
   end
   dirs = {"." => []}
@@ -74,5 +78,40 @@ HDR
       end
       html.puts "</p>"
     end
+  end
+end
+
+def jruby_org_bucket
+  require 'aws/s3'
+  ey_cloud = open(File.expand_path('~/.ey-cloud.yml')) { |f| YAML::load(f) }
+  AWS::S3::Base.establish_connection!(
+    :access_key_id     => ey_cloud[:aws_secret_id],
+    :secret_access_key => ey_cloud[:aws_secret_key]
+  )
+  AWS::S3::Bucket.find('jruby.org')
+end
+
+def add_public_read_perm(obj)
+  return if obj.acl.grants.detect {|g| g.grantee.group == "AllUsers" && g.permission == "READ" }
+  puts "Updating #{obj.key} to be publicly readable"
+  obj.acl.grants << AWS::S3::ACL::Grant.grant(:public_read)
+  obj.acl(obj.acl)              # save the permissions
+end
+
+task :update_hash_files do
+  jruby_org_bucket.objects.each do |obj|
+    next unless obj.key =~ /\.(md5|sha1)$/
+    unless obj.content_type == "text/plain"
+      puts "Updating #{obj.key} to Content-Type: text/plain"
+      obj.content_type = "text/plain"
+      obj.store
+      add_public_read_perm(obj)
+    end
+  end
+end
+
+task :update_read_perms do
+  jruby_org_bucket.objects.each do |obj|
+    add_public_read_perm(obj)
   end
 end
