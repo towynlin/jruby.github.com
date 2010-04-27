@@ -1,3 +1,10 @@
+begin
+  require 'bundler'
+  Bundler.setup
+rescue LoadError
+  puts "Please install Bundler and run 'bundle install' to ensure you have all dependencies"
+end
+
 desc "Clean the site"
 task :clean do
   rm_rf "_site"
@@ -27,15 +34,6 @@ task :default do
   Rake.application.display_tasks_and_comments
 end
 
-def manifest_xml(stream = File.new('s3manifest.xml'))
-  require 'rexml/document'
-  @doc ||= REXML::Document.new(stream)
-end
-
-def manifest_entries
-  manifest_xml.root.elements.to_a('/ListBucketResult/Contents/Key')
-end
-
 file 's3manifest.xml' do |t|
   require 'open-uri'
   open("http://jruby.org.s3.amazonaws.com/") do |xml|
@@ -45,57 +43,14 @@ end
 
 desc "Create browsable index.html files for S3"
 task :indexes => 's3manifest.xml' do
-  entries = manifest_entries.map do |el|
-    el.text.strip.sub(/_\$folder\$$/, '/')
-  end
-  dirs = {"." => []}
-  entries.sort.each do |f|
-    dirs[File.dirname(f)] ||= []
-    dirs[File.dirname(f)] << f
-  end
   top = "www/files"
   mkdir_p top, :verbose => false
-  dirs.each do |dir,entries|
+  sorted_manifest_directories.each do |dir,entries|
     mkdir_p File.expand_path(File.join(top, dir)), :verbose => false
     File.open(File.expand_path(File.join(top, dir, "index.html")), "wb") do |html|
-      html.puts <<HDR
----
-layout: main
-title: Files/#{dir == '.' ? '' : dir}
----
-<h1>Files/#{dir == '.' ? '' : dir}</h1>
-<p class="trackDownloads">
-HDR
-      parent = File.dirname(dir)
-      parent = parent == '.' ? '' : "#{parent}/"
-      html.puts "  <a href='/files/#{parent}index.html'>..</a><br/>" unless dir == '.'
-      entries.sort.each do |entry|
-        if entry =~ /\/$/
-          html.puts "  <a href='/files/#{entry}index.html'>#{File.basename(entry)}</a><br/>"
-        else
-          html.puts "  <a href='http://jruby.org.s3.amazonaws.com/#{entry}'>#{File.basename(entry)}</a><br/>"
-        end
-      end
-      html.puts "</p>"
+      write_index_html(html, dir, entries)
     end
   end
-end
-
-def jruby_org_bucket
-  require 'aws/s3'
-  ey_cloud = open(File.expand_path('~/.ey-cloud.yml')) { |f| YAML::load(f) }
-  AWS::S3::Base.establish_connection!(
-    :access_key_id     => ey_cloud[:aws_secret_id],
-    :secret_access_key => ey_cloud[:aws_secret_key]
-  )
-  AWS::S3::Bucket.find('jruby.org')
-end
-
-def add_public_read_perm(obj)
-  return if obj.acl.grants.detect {|g| g.grantee.group == "AllUsers" && g.permission == "READ" }
-  puts "Updating #{obj.key} to be publicly readable"
-  obj.acl.grants << AWS::S3::ACL::Grant.grant(:public_read)
-  obj.acl(obj.acl)              # save the permissions
 end
 
 task :update_hash_files do
@@ -114,4 +69,9 @@ task :update_read_perms do
   jruby_org_bucket.objects.each do |obj|
     add_public_read_perm(obj)
   end
+end
+
+desc "Print a summary of yesterday's file downloads"
+task :download_summary do
+  jruby_download_summary ENV['DATE']
 end
