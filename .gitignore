@@ -3,3 +3,4 @@ vendor
 _site
 /.bundle/config
 /.bundle/environment.rb
+*~
