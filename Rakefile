@@ -73,5 +73,5 @@ end
 
 desc "Print a summary of yesterday's file downloads"
 task :download_summary do
-  jruby_download_summary ENV['DATE']
+  jruby_download_summary ENV['DATE'], ENV['OUTPUT']
 end

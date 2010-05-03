@@ -80,8 +80,10 @@ def log_line_match(line)
 end
 
 require 'date'
-def jruby_download_summary(date = nil)
+def jruby_download_summary(date = nil, output = nil)
   date ||= Date.today - 1
+  output = File.new(output, "w") if String === output
+  output ||= $stdout
   s3_connect
   log_objects = AWS::S3::Bucket.objects('jrubylogs', :prefix => "jruby-access-log/#{date.to_s}")
   requests = {}
@@ -98,14 +100,14 @@ def jruby_download_summary(date = nil)
     end
   end
   if requests.size == 0
-    puts "No requests on #{date}"
+    output.puts "No requests on #{date}"
   else
     total = 0
     max_width = requests.keys.max {|a,b| a.length <=> b.length }.length
     requests.keys.sort.each do |k|
       total += requests[k]
-      puts "%-#{max_width}s  %s" % [k, requests[k]]
+      output.puts "%-#{max_width}s  %s" % [k, requests[k]]
     end
-    puts "%-#{max_width}s  %s" % ["Total", total]
+    output.puts "%-#{max_width}s  %s" % ["Total", total]
   end
 end
