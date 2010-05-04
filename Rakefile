@@ -11,7 +11,7 @@ task :clean do
 end
 
 desc "Generate the site using Jekyll"
-task :generate do
+task :generate => :check_pygments do
   ruby "-S bundle exec jekyll"
 end
 task :gen => :generate
@@ -32,6 +32,11 @@ task :default do
   Rake.application.options.full_description = false
   Rake.application.options.show_task_pattern = //
   Rake.application.display_tasks_and_comments
+end
+
+task :check_pygments do
+  `which pygmentize`
+  $?.success? or raise "Pygments not installed, see http://pygments.org/docs/installation/"
 end
 
 file 's3manifest.xml' do |t|
