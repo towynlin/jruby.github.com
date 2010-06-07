@@ -8890,7 +8890,7 @@
       downloads/1.5.0.RC3/jruby-bin-1.5.0.RC3.tar.gz.md5
     </Key>
     <LastModified>
-      2010-05-04T19:11:49.000Z
+      2010-05-12T20:14:20.000Z
     </LastModified>
     <ETag>
       &quot;6ac1d1bff12db62c80ab3ff0e6f1af42&quot;
@@ -8907,7 +8907,7 @@
       downloads/1.5.0.RC3/jruby-bin-1.5.0.RC3.tar.gz.sha1
     </Key>
     <LastModified>
-      2010-05-04T19:11:50.000Z
+      2010-05-12T20:14:22.000Z
     </LastModified>
     <ETag>
       &quot;e0d8f04559bead0ed5065c38987399f7&quot;
@@ -8941,7 +8941,7 @@
       downloads/1.5.0.RC3/jruby-bin-1.5.0.RC3.zip.md5
     </Key>
     <LastModified>
-      2010-05-04T19:15:07.000Z
+      2010-05-12T20:14:24.000Z
     </LastModified>
     <ETag>
       &quot;9be3bafa2c5383b8c0e5bda4cd299e1c&quot;
@@ -8958,7 +8958,7 @@
       downloads/1.5.0.RC3/jruby-bin-1.5.0.RC3.zip.sha1
     </Key>
     <LastModified>
-      2010-05-04T19:15:08.000Z
+      2010-05-12T20:14:25.000Z
     </LastModified>
     <ETag>
       &quot;de809380b8e93dcd148c9ba0bdbab804&quot;
@@ -8992,7 +8992,7 @@
       downloads/1.5.0.RC3/jruby-complete-1.5.0.RC3.jar.md5
     </Key>
     <LastModified>
-      2010-05-04T19:17:17.000Z
+      2010-05-12T20:14:27.000Z
     </LastModified>
     <ETag>
       &quot;81ab367d1c43a9cb5b063ca46ae9655e&quot;
@@ -9009,7 +9009,7 @@
       downloads/1.5.0.RC3/jruby-complete-1.5.0.RC3.jar.sha1
     </Key>
     <LastModified>
-      2010-05-04T19:17:18.000Z
+      2010-05-12T20:14:29.000Z
     </LastModified>
     <ETag>
       &quot;2ade07f9e91d97a97bf779b39e958e6b&quot;
@@ -9043,7 +9043,7 @@
       downloads/1.5.0.RC3/jruby-src-1.5.0.RC3.tar.gz.md5
     </Key>
     <LastModified>
-      2010-05-04T19:19:23.000Z
+      2010-05-12T20:14:31.000Z
     </LastModified>
     <ETag>
       &quot;dcbeef3eedf07b187c2e727879352bdf&quot;
@@ -9060,7 +9060,7 @@
       downloads/1.5.0.RC3/jruby-src-1.5.0.RC3.tar.gz.sha1
     </Key>
     <LastModified>
-      2010-05-04T19:19:25.000Z
+      2010-05-12T20:14:33.000Z
     </LastModified>
     <ETag>
       &quot;9beb06aeebff1283d6cffe62d3c30dff&quot;
@@ -9094,7 +9094,7 @@
       downloads/1.5.0.RC3/jruby-src-1.5.0.RC3.zip.md5
     </Key>
     <LastModified>
-      2010-05-04T19:22:38.000Z
+      2010-05-12T20:14:35.000Z
     </LastModified>
     <ETag>
       &quot;09cf3119570b6473b0dc91481e81272b&quot;
@@ -9111,7 +9111,7 @@
       downloads/1.5.0.RC3/jruby-src-1.5.0.RC3.zip.sha1
     </Key>
     <LastModified>
-      2010-05-04T19:00:11.000Z
+      2010-05-12T20:14:37.000Z
     </LastModified>
     <ETag>
       &quot;b1c3581fb11d90057781e943064bd833&quot;
@@ -9145,7 +9145,7 @@
       downloads/1.5.0.RC3/jruby_windows_1_5_0_RC3.exe.md5
     </Key>
     <LastModified>
-      2010-05-04T19:02:13.000Z
+      2010-05-12T20:14:38.000Z
     </LastModified>
     <ETag>
       &quot;a6d06b42f909c482a68f6ab7ee04728f&quot;
@@ -9162,7 +9162,7 @@
       downloads/1.5.0.RC3/jruby_windows_1_5_0_RC3.exe.sha1
     </Key>
     <LastModified>
-      2010-05-04T19:02:14.000Z
+      2010-05-12T20:14:40.000Z
     </LastModified>
     <ETag>
       &quot;7fc3ef628f3735e526da69c20e550622&quot;
@@ -9196,7 +9196,7 @@
       downloads/1.5.0.RC3/jruby_windows_x64_1_5_0_RC3.exe.md5
     </Key>
     <LastModified>
-      2010-05-04T19:04:19.000Z
+      2010-05-12T20:14:43.000Z
     </LastModified>
     <ETag>
       &quot;6940f5658a652f0bb040e58c796e5d8e&quot;
@@ -9213,7 +9213,7 @@
       downloads/1.5.0.RC3/jruby_windows_x64_1_5_0_RC3.exe.sha1
     </Key>
     <LastModified>
-      2010-05-04T19:04:20.000Z
+      2010-05-12T20:14:45.000Z
     </LastModified>
     <ETag>
       &quot;610ecbc83df953566a2c3d32b9ed8602&quot;
@@ -9247,7 +9247,7 @@
       downloads/1.5.0.RC3/jruby_windowsjre_1_5_0_RC3.exe.md5
     </Key>
     <LastModified>
-      2010-05-04T19:09:35.000Z
+      2010-05-12T20:14:47.000Z
     </LastModified>
     <ETag>
       &quot;8bd35ded1fb540f284a662eb5af80d86&quot;
@@ -9264,7 +9264,7 @@
       downloads/1.5.0.RC3/jruby_windowsjre_1_5_0_RC3.exe.sha1
     </Key>
     <LastModified>
-      2010-05-04T19:09:36.000Z
+      2010-05-12T20:14:49.000Z
     </LastModified>
     <ETag>
       &quot;c985cc72828f8d7a0cc2414a64b2dacd&quot;
@@ -9298,13 +9298,13 @@
       downloads/1.5.0/jruby-bin-1.5.0.tar.gz
     </Key>
     <LastModified>
-      2010-05-12T19:46:32.000Z
+      2010-05-13T02:45:47.000Z
     </LastModified>
     <ETag>
-      &quot;ee2b4e326e8b87858e5dd0c8e94102e6&quot;
+      &quot;fd5c0fa9e42cf499807711a8d98d5402&quot;
     </ETag>
     <Size>
-      11611264
+      11624321
     </Size>
     <StorageClass>
       STANDARD
@@ -9315,10 +9315,10 @@
       downloads/1.5.0/jruby-bin-1.5.0.tar.gz.md5
     </Key>
     <LastModified>
-      2010-05-12T19:49:02.000Z
+      2010-05-13T02:58:23.000Z
     </LastModified>
     <ETag>
-      &quot;6366287aa841d23b7254b367ca337805&quot;
+      &quot;83435d492bec3271ee212c2c62b977a1&quot;
     </ETag>
     <Size>
       33
@@ -9332,10 +9332,10 @@
       downloads/1.5.0/jruby-bin-1.5.0.tar.gz.sha1
     </Key>
     <LastModified>
-      2010-05-12T19:49:06.000Z
+      2010-05-13T02:58:25.000Z
     </LastModified>
     <ETag>
-      &quot;b2f6e0ba0c3584452cfd8257a503fcd6&quot;
+      &quot;27ed17e0212348ebc40bfae30ab02724&quot;
     </ETag>
     <Size>
       41
@@ -9349,13 +9349,13 @@
       downloads/1.5.0/jruby-bin-1.5.0.zip
     </Key>
     <LastModified>
-      2010-05-12T19:49:08.000Z
+      2010-05-13T02:50:05.000Z
     </LastModified>
     <ETag>
-      &quot;37cc94e1202957f1fabfaa1837310d4f&quot;
+      &quot;4a8cfda6d7b0af71a39ac519b18d995b&quot;
     </ETag>
     <Size>
-      15856174
+      16494349
     </Size>
     <StorageClass>
       STANDARD
@@ -9366,10 +9366,10 @@
       downloads/1.5.0/jruby-bin-1.5.0.zip.md5
     </Key>
     <LastModified>
-      2010-05-12T19:52:33.000Z
+      2010-05-13T02:58:27.000Z
     </LastModified>
     <ETag>
-      &quot;3ab4addab5bb04af28320c4c6915b238&quot;
+      &quot;4b03e15236a5c20c21f32589fb36c149&quot;
     </ETag>
     <Size>
       33
@@ -9383,10 +9383,10 @@
       downloads/1.5.0/jruby-bin-1.5.0.zip.sha1
     </Key>
     <LastModified>
-      2010-05-12T19:52:35.000Z
+      2010-05-13T02:58:38.000Z
     </LastModified>
     <ETag>
-      &quot;4d88ea856ca4903f20d50ed0f3145250&quot;
+      &quot;6afd1aff7f4e8c6fbe289c425b963ca7&quot;
     </ETag>
     <Size>
       41
@@ -9417,7 +9417,7 @@
       downloads/1.5.0/jruby-complete-1.5.0.jar.md5
     </Key>
     <LastModified>
-      2010-05-12T19:55:05.000Z
+      2010-05-12T20:14:58.000Z
     </LastModified>
     <ETag>
       &quot;c987d92d125e7f1d5c70df9e360951fe&quot;
@@ -9434,7 +9434,7 @@
       downloads/1.5.0/jruby-complete-1.5.0.jar.sha1
     </Key>
     <LastModified>
-      2010-05-12T19:55:06.000Z
+      2010-05-12T20:14:59.000Z
     </LastModified>
     <ETag>
       &quot;2a38dc0a54c645585f6cab3f31dc5938&quot;
@@ -9468,7 +9468,7 @@
       downloads/1.5.0/jruby-src-1.5.0.tar.gz.md5
     </Key>
     <LastModified>
-      2010-05-12T19:59:44.000Z
+      2010-05-12T20:15:01.000Z
     </LastModified>
     <ETag>
       &quot;3911844b62ce7dc7d7343f21dbe66590&quot;
@@ -9485,7 +9485,7 @@
       downloads/1.5.0/jruby-src-1.5.0.tar.gz.sha1
     </Key>
     <LastModified>
-      2010-05-12T19:59:58.000Z
+      2010-05-12T20:15:02.000Z
     </LastModified>
     <ETag>
       &quot;0e6efc274aab60d6b901cd2f65628043&quot;
@@ -9519,7 +9519,7 @@
       downloads/1.5.0/jruby-src-1.5.0.zip.md5
     </Key>
     <LastModified>
-      2010-05-12T20:04:42.000Z
+      2010-05-12T20:15:04.000Z
     </LastModified>
     <ETag>
       &quot;c80d4528be3458ceb6f4fd527058e0f1&quot;
@@ -9536,7 +9536,7 @@
       downloads/1.5.0/jruby-src-1.5.0.zip.sha1
     </Key>
     <LastModified>
-      2010-05-12T20:04:45.000Z
+      2010-05-12T20:15:05.000Z
     </LastModified>
     <ETag>
       &quot;cb5fe334273a7d1f77df4c15cd9ac178&quot;
@@ -9570,7 +9570,7 @@
       downloads/1.5.0/jruby_windows_1_5_0.exe.md5
     </Key>
     <LastModified>
-      2010-05-12T19:26:38.000Z
+      2010-05-12T20:15:07.000Z
     </LastModified>
     <ETag>
       &quot;e0534e853e81e654b8f516ef5cb049f4&quot;
@@ -9587,7 +9587,7 @@
       downloads/1.5.0/jruby_windows_1_5_0.exe.sha1
     </Key>
     <LastModified>
-      2010-05-12T19:26:41.000Z
+      2010-05-12T20:15:08.000Z
     </LastModified>
     <ETag>
       &quot;622c2987c0d3a2e7b9448281da4ca0d9&quot;
@@ -9621,7 +9621,7 @@
       downloads/1.5.0/jruby_windows_x64_1_5_0.exe.md5
     </Key>
     <LastModified>
-      2010-05-12T19:29:03.000Z
+      2010-05-12T20:15:12.000Z
     </LastModified>
     <ETag>
       &quot;1546289bd8ffce8b9656b594c294b880&quot;
@@ -9638,7 +9638,7 @@
       downloads/1.5.0/jruby_windows_x64_1_5_0.exe.sha1
     </Key>
     <LastModified>
-      2010-05-12T19:29:15.000Z
+      2010-05-12T20:15:13.000Z
     </LastModified>
     <ETag>
       &quot;2b8227941c9230e8da150c1436794f87&quot;
@@ -9672,7 +9672,7 @@
       downloads/1.5.0/jruby_windowsjre_1_5_0.exe.md5
     </Key>
     <LastModified>
-      2010-05-12T19:46:29.000Z
+      2010-05-12T20:15:15.000Z
     </LastModified>
     <ETag>
       &quot;fd3212a863dfddcbb81d53ad729976e7&quot;
@@ -9689,7 +9689,7 @@
       downloads/1.5.0/jruby_windowsjre_1_5_0.exe.sha1
     </Key>
     <LastModified>
-      2010-05-12T19:46:30.000Z
+      2010-05-12T20:15:16.000Z
     </LastModified>
     <ETag>
       &quot;e4749f8d8e46e18a550ae64e25dbb0b0&quot;
@@ -9707,6 +9707,431 @@
     </Key>
     <LastModified>
       2010-05-12T19:22:27.000Z
+    </LastModified>
+    <ETag>
+      &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
+    </ETag>
+    <Size>
+      0
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby-bin-1.5.1.tar.gz
+    </Key>
+    <LastModified>
+      2010-06-06T16:10:20.000Z
+    </LastModified>
+    <ETag>
+      &quot;74251383e08e8c339cacc35a7900d3af&quot;
+    </ETag>
+    <Size>
+      12072742
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby-bin-1.5.1.tar.gz.md5
+    </Key>
+    <LastModified>
+      2010-06-06T16:13:59.000Z
+    </LastModified>
+    <ETag>
+      &quot;3eca4e25fe576012a57ff674c72ddaed&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby-bin-1.5.1.tar.gz.sha1
+    </Key>
+    <LastModified>
+      2010-06-06T16:14:00.000Z
+    </LastModified>
+    <ETag>
+      &quot;d15d3a20f81a0e2d7bbf8de74cbd39a9&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby-bin-1.5.1.zip
+    </Key>
+    <LastModified>
+      2010-06-06T16:14:01.000Z
+    </LastModified>
+    <ETag>
+      &quot;15439f9af92e9b256e90bd3ca5581f57&quot;
+    </ETag>
+    <Size>
+      18055768
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby-bin-1.5.1.zip.md5
+    </Key>
+    <LastModified>
+      2010-06-06T16:19:28.000Z
+    </LastModified>
+    <ETag>
+      &quot;2d588b5483e252c7fc141c5ca80749dc&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby-bin-1.5.1.zip.sha1
+    </Key>
+    <LastModified>
+      2010-06-06T16:19:29.000Z
+    </LastModified>
+    <ETag>
+      &quot;3ef7f8bec5fe3bbeb560f7079b6705d9&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby-complete-1.5.1.jar
+    </Key>
+    <LastModified>
+      2010-06-06T16:19:31.000Z
+    </LastModified>
+    <ETag>
+      &quot;09f923deb42c624f9ce6d00f6c321778&quot;
+    </ETag>
+    <Size>
+      11467532
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby-complete-1.5.1.jar.md5
+    </Key>
+    <LastModified>
+      2010-06-06T16:23:19.000Z
+    </LastModified>
+    <ETag>
+      &quot;f32d4405f7897be7217cd0f649e78cdd&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby-complete-1.5.1.jar.sha1
+    </Key>
+    <LastModified>
+      2010-06-06T16:23:21.000Z
+    </LastModified>
+    <ETag>
+      &quot;5fb91b6f41d1c1211e34b3571205f7cb&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby-src-1.5.1.tar.gz
+    </Key>
+    <LastModified>
+      2010-06-06T16:23:22.000Z
+    </LastModified>
+    <ETag>
+      &quot;90193a9c24f132b4d112b39cae83b707&quot;
+    </ETag>
+    <Size>
+      11260259
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby-src-1.5.1.tar.gz.md5
+    </Key>
+    <LastModified>
+      2010-06-06T16:26:47.000Z
+    </LastModified>
+    <ETag>
+      &quot;ca3f1ab5cf27a6ea2519ed41b756e52d&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby-src-1.5.1.tar.gz.sha1
+    </Key>
+    <LastModified>
+      2010-06-06T16:26:48.000Z
+    </LastModified>
+    <ETag>
+      &quot;bcfed8170b8f778fb7e7f41c77d6bf0f&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby-src-1.5.1.zip
+    </Key>
+    <LastModified>
+      2010-06-06T16:26:50.000Z
+    </LastModified>
+    <ETag>
+      &quot;2bedbca13b6fafe2eee4d551ed8e4819&quot;
+    </ETag>
+    <Size>
+      13730601
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby-src-1.5.1.zip.md5
+    </Key>
+    <LastModified>
+      2010-06-06T16:31:24.000Z
+    </LastModified>
+    <ETag>
+      &quot;4cd7a5d22268637a7dc6a549ff398981&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby-src-1.5.1.zip.sha1
+    </Key>
+    <LastModified>
+      2010-06-06T16:31:26.000Z
+    </LastModified>
+    <ETag>
+      &quot;8633a43e73b1c113a05e737194bf91d8&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby_windows_1_5_1.exe
+    </Key>
+    <LastModified>
+      2010-06-06T15:54:06.000Z
+    </LastModified>
+    <ETag>
+      &quot;9e08c10d62b5ea4397018af179c51182&quot;
+    </ETag>
+    <Size>
+      11205632
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby_windows_1_5_1.exe.md5
+    </Key>
+    <LastModified>
+      2010-06-06T15:57:53.000Z
+    </LastModified>
+    <ETag>
+      &quot;0174451215f483bbedfdc13d166febc8&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby_windows_1_5_1.exe.sha1
+    </Key>
+    <LastModified>
+      2010-06-06T15:57:56.000Z
+    </LastModified>
+    <ETag>
+      &quot;8be1bef3e31b938c212359affcced366&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby_windows_x64_1_5_1.exe
+    </Key>
+    <LastModified>
+      2010-06-06T15:57:57.000Z
+    </LastModified>
+    <ETag>
+      &quot;87ac5c52a922b624ee9bebd62b2f0e75&quot;
+    </ETag>
+    <Size>
+      10955776
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby_windows_x64_1_5_1.exe.md5
+    </Key>
+    <LastModified>
+      2010-06-06T16:01:17.000Z
+    </LastModified>
+    <ETag>
+      &quot;32e540e4fcfd3d2dfa3d2fef4d5eeb37&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby_windows_x64_1_5_1.exe.sha1
+    </Key>
+    <LastModified>
+      2010-06-06T16:01:18.000Z
+    </LastModified>
+    <ETag>
+      &quot;f52f9c1e43e05195d280ce3cf0ba928d&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby_windowsjre_1_5_1.exe
+    </Key>
+    <LastModified>
+      2010-06-06T16:01:19.000Z
+    </LastModified>
+    <ETag>
+      &quot;8328edc2ce7a9062eefb2864ee953d63&quot;
+    </ETag>
+    <Size>
+      27880960
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby_windowsjre_1_5_1.exe.md5
+    </Key>
+    <LastModified>
+      2010-06-06T16:10:16.000Z
+    </LastModified>
+    <ETag>
+      &quot;6590cf95d0849e55125e4a7ec3f6fede&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1/jruby_windowsjre_1_5_1.exe.sha1
+    </Key>
+    <LastModified>
+      2010-06-06T16:10:18.000Z
+    </LastModified>
+    <ETag>
+      &quot;845e5463463fede39bd9263711e1b7e5&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.5.1_$folder$
+    </Key>
+    <LastModified>
+      2010-06-06T14:06:28.000Z
     </LastModified>
     <ETag>
       &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
