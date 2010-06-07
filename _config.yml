@@ -13,13 +13,13 @@ maruku:
   png_url:    /images/latex
 # JRuby-specific info here; goes into the "site" jekyll variable
 release:
-  url: /2010/05/12/jruby-1-5-0
-  version: 1.5.0
-  tar: http://jruby.org.s3.amazonaws.com/downloads/1.5.0/jruby-bin-1.5.0.tar.gz
-  zip: http://jruby.org.s3.amazonaws.com/downloads/1.5.0/jruby-bin-1.5.0.zip
-  exe: http://jruby.org.s3.amazonaws.com/downloads/1.5.0/jruby_windows_1_5_0.exe
-  exe64: http://jruby.org.s3.amazonaws.com/downloads/1.5.0/jruby_windows_x64_1_5_0.exe
-  exejre: http://jruby.org.s3.amazonaws.com/downloads/1.5.0/jruby_windowsjre_1_5_0.exe
+  url: /2010/06/07/jruby-1-5-1
+  version: 1.5.1
+  tar: http://jruby.org.s3.amazonaws.com/downloads/1.5.1/jruby-bin-1.5.1.tar.gz
+  zip: http://jruby.org.s3.amazonaws.com/downloads/1.5.1/jruby-bin-1.5.1.zip
+  exe: http://jruby.org.s3.amazonaws.com/downloads/1.5.1/jruby_windows_1_5_1.exe
+  exe64: http://jruby.org.s3.amazonaws.com/downloads/1.5.1/jruby_windows_x64_1_5_1.exe
+  exejre: http://jruby.org.s3.amazonaws.com/downloads/1.5.1/jruby_windowsjre_1_5_1.exe
 urls:
   s3: http://jruby.org.s3.amazonaws.com/downloads
   jira: http://jira.codehaus.org/browse/JRUBY
