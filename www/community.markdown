@@ -16,6 +16,9 @@ JRuby has a large and active community. You can connect up with them in several 
 
 [**Bug Tracker**][jira] - Users are encouraged to report any bug, however insignificant it may seem. Please run a couple searches first to see if your bug has been reported, or ask us about it on IRC&nbsp;or the mailing lists.
 
+[**Wiki**][wiki] - The JRuby wiki--user editable.
+
 [irc]: http://kenai.com/projects/jruby/pages/IRC
 [lists]: http://kenai.com/projects/jruby/pages/MailingLists
 [jira]: http://jira.codehaus.org/browse/JRUBY
+[wiki]: http://kenai.com/projects/jruby/pages/Home
