@@ -13,7 +13,7 @@ JRuby 1.5.3 is a minor follow-up release to address a thread deadlock, a spuriou
 
 - JRUBY-5093 ConditionVariable use causes thread deadlocks	
 - JRUBY-5076 SelectorProvider.openSelector() will sometimes fail on Windows
-- JRUBY-5098 Kernel#exec does not heed ENV['PATH'] when launching shell command
+- JRUBY-5098 Kernel#exec does not heed ENV\[\'PATH\'\] when launching shell command
 - JRUBY-5100 Subprocess started by Kernel#exec does not respect RUBYOPT and other environment variables set via ENV.
 - JRUBY-4944 JSR-223 ScriptEngine ignores global bindings
 - JRUBY-4948 Remove noisy warning when setting ScriptEngine.ARGV
