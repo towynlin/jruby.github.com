@@ -3,7 +3,7 @@
   hasLayout: on !important;
   display: inline !important;
 }
-
-.stripNav ul li a {
+.stripNav a {
   display: inline !important;
+  width: auto;
 }
