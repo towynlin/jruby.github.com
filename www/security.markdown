@@ -2,6 +2,9 @@
 layout: main
 title: Security
 ---
+
+# Security
+
 ## Reporting Security Vulnerabilities
 
 Please send an email to

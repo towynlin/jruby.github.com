@@ -1,18 +1,8 @@
 <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   {% include head.html %}
-  <link href="/stylesheets/carousel.css" media="screen" rel="stylesheet" type="text/css" />  
-  <script src="/javascripts/jquery-easing.1.2.pack.js" type="text/javascript"></script>
-  <script src="/javascripts/jquery-easing-compatibility.1.2.pack.js" type="text/javascript"></script>
-  <script src="/javascripts/coda-slider.1.1.1.pack.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    jQuery(window).bind("load", function() {
-    jQuery("div#carousel").codaSlider()
-    // jQuery("div#slider2").codaSlider()
-    // etc, etc. Beware of cross-linking difficulties if using multiple sliders on one page.
-    });
-  </script>
-
+  <link href="/stylesheets/carousel.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
 <body class="home">
   {% include menu.html %}
@@ -20,7 +10,7 @@
   <div id="container">
     <div id="header">
       <h1>JRuby</h1>
-      <h2>100% Pure-Java Implementation of the <strong><em>Ruby</em> Programming Language</strong></h2>
+      <h2>100% Pure-Java Implementation of the<br /> <strong><em>Ruby</em> Programming Language</strong></h2>
       {% include release.html %}
     </div>
     {{ content }}
@@ -48,25 +38,11 @@
       </div>
     </div>
   </div>
+  {% include scripts.html %}
+  <script src="/javascripts/jquery-easing.1.2.pack.js" type="text/javascript"></script>
+  <script src="/javascripts/jquery-easing-compatibility.1.2.pack.js" type="text/javascript"></script>
+  <script src="/javascripts/coda-slider.1.1.1.pack.js" type="text/javascript"></script>
   
-  <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-764576-16']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-  </script>
-  
-  <!-- # Marketo Tracking -->
-  <script src="http://munchkin.marketo.net/munchkin.js"; type="text/javascript"></script>
-  <script>mktoMunchkin("422-MTH-535");</script>
-  
-  <script src="/javascripts/application.js" type="text/javascript"></script>
+  {% include tracking.html %}
 </body>
 </html>
