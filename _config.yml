@@ -13,7 +13,7 @@ maruku:
   png_url:    /images/latex
 # JRuby-specific info here; goes into the "site" jekyll variable
 release:
-  url: /2010/10/28/jruby-1-5-3
+  url: /2010/09/28/jruby-1-5-3
   version: 1.5.3
   tar: http://jruby.org.s3.amazonaws.com/downloads/1.5.3/jruby-bin-1.5.3.tar.gz
   zip: http://jruby.org.s3.amazonaws.com/downloads/1.5.3/jruby-bin-1.5.3.zip
