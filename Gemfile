@@ -6,3 +6,6 @@ gem "mojombo-jekyll"
 gem "rack", "1.0.0"
 gem "aws-s3"
 gem "request-log-analyzer"
+platforms :jruby do
+  gem "jruby-openssl"
+end

@@ -26,6 +26,11 @@ task :deploy => :generate do
   sh "tar -C _site/ -zcf - . | ssh deploy@jruby.org 'cd /data/jruby.org && tar zxf -'"
 end
 
+desc "Deploy Nginx config changes"
+task :nginx do
+  sh "tar -C conf/ -zcf - . | ssh deploy@jruby.org 'cd /etc/nginx/servers && sudo tar zxf - && sudo /etc/init.d/nginx reload'"
+end
+
 task :default do
   puts "JRuby.org documentation site. Available tasks:"
   Rake.application.options.show_tasks = true
