@@ -3,8 +3,16 @@ layout: main
 title: Documentation
 ---
 
-# Selected Docs and Articles
+# Docs and Articles
 
-We'll keep this page up-to-date with the most current, relevant
-articles, wiki pages, and blog posts. For now, visit the
-<a href="{{ site.urls.wiki }}">JRuby Wiki.</a>
+### API Docs
+
+* [Browse JRuby API Javadocs online](/apidocs/)
+
+We greatly appreciate patches and pull requests for documentation
+updates. Please visit the [**Contribute**](/contribute) page for more
+information on sending JRuby source patches.
+
+### Wiki
+
+* Visit the <a href="{{ site.urls.wiki }}">JRuby Wiki here</a>.
