@@ -352,6 +352,11 @@ a:hover, a:active {
 .halfColumn:first-child {
   margin-left: 0;
 }
+.badges {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 .right {
   float: right;
 }
