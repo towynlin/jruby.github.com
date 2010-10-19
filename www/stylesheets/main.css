@@ -360,3 +360,10 @@ a:hover, a:active {
 .right {
   float: right;
 }
+.left {
+  float: left;
+}
+img.left {
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
