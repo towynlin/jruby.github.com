@@ -87,14 +87,22 @@ def jruby_download_summary(date = nil, output = nil)
   s3_connect
   log_objects = AWS::S3::Bucket.objects('jrubylogs', :prefix => "jruby-access-log/#{date.to_s}")
   requests = {}
+  user_agents = {}
   log_objects.each do |log|
     log.value.each_line do |line|
       match_hash = log_line_match(line)
-      if match_hash && match_hash[:key] && match_hash[:http_status] == 200
+      if match_hash && match_hash[:key] &&
+          match_hash[:http_status] == 200 &&
+          match_hash[:bytes_sent] == match_hash[:object_size]
         file = match_hash[:key]
         if file =~ /.(zip|exe|tar\.gz)$/
           requests[file] ||= 0
           requests[file] += 1
+        end
+        if ua = match_hash[:user_agent]
+          ua = ua[0..20] + '...'
+          user_agents[ua] ||= 0
+          user_agents[ua] += 1
         end
       end
     end
@@ -109,5 +117,12 @@ def jruby_download_summary(date = nil, output = nil)
       output.puts "%-#{max_width}s  %s" % [k, requests[k]]
     end
     output.puts "%-#{max_width}s  %s" % ["Total", total]
+  end
+  if user_agents.size > 0
+    output.puts
+    max_width = user_agents.keys.max {|a,b| a.length <=> b.length }.length
+    user_agents.to_a.sort {|a,b| b[1] <=> a[1]}.each do |agent, count|
+      output.puts "%-#{max_width}s  %s" % [agent, count]
+    end
   end
 end
