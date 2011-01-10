@@ -4,8 +4,8 @@ title: JRuby 1.6.0.RC1 Released
 ---
 The JRuby community is pleased to announce the release of JRuby 1.6.0.RC1.
 
-- Homepage: http://www.jruby.org/
-- Download: http://www.jruby.org/download
+- Homepage: [http://www.jruby.org/](http://www.jruby.org/)
+- Download: [http://www.jruby.org/download](http://www.jruby.org/download)
 
 JRuby 1.6.0.RC1 is the first release candidate of JRuby 1.6.0.
 
@@ -26,14 +26,15 @@ our 1.9.2 compatibility before the final 1.6.0 release.
 
 Major Features:
 
-* Ruby 1.9.2 language and API compatibility
-** Not implemented: Encoding::Converter, non-ASCII identifiers, ripper, fiddle
-* Improved Ruby call performance
-* Built-in profiler (--profile, --profile.graph)
-* RubyGems 1.4.2
-* RSpec no longer bundled
-* C Extension support (experimental)
-* RubyGems Maven support (preview)
-* Improved compatibility and user experience on Windows
-* jruby-complete.jar now includes 1.9 standard library
-* Over 2000 commits and 265 issues resolved.
+- Ruby 1.9.2 language and API compatibility
+
+  - Not implemented Encoding::Converter, non-ASCII identifiers, ripper, fiddle
+- Improved Ruby call performance
+- Built-in profiler (--profile, --profile.graph)
+- RubyGems 1.4.2
+- RSpec no longer bundled
+- C Extension support (experimental)
+- RubyGems Maven support (preview)
+- Improved compatibility and user experience on Windows
+- jruby-complete.jar now includes 1.9 standard library
+- Over 2000 commits and 265 issues resolved.
