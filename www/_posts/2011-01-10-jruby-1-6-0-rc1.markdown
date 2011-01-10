@@ -37,4 +37,5 @@ Major Features:
 - RubyGems Maven support (preview)
 - Improved compatibility and user experience on Windows
 - jruby-complete.jar now includes 1.9 standard library
+- Embedding API refinements
 - Over 2000 commits and 265 issues resolved.
