@@ -47,5 +47,5 @@ OpenSSL::SSL::VERIFY_PEER mode and jruby-openssl 0.5.2 or earlier. See
 [jruby-openssl]: http://gems.rubyforge.org/gems/jruby-openssl
 [jossl06]: /2009/12/07/vulnerability-in-jruby-openssl
 [vendor-sec]: http://oss-security.openwall.org/wiki/mailing-lists/vendor-sec
-[jruby-user]: http://kenai.com/projects/jruby/pages/MailingLists
+[jruby-user]: http://wiki.jruby.org/MailingLists
 [jruby141]: 2010/04/26/jruby-1-4-1-xss-vulnerability

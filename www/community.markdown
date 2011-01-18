@@ -18,7 +18,7 @@ JRuby has a large and active community. You can connect up with them in several 
 
 [**Wiki**][wiki] - The JRuby wiki--user editable.
 
-[irc]: http://kenai.com/projects/jruby/pages/IRC
-[lists]: http://kenai.com/projects/jruby/pages/MailingLists
+[irc]: http://wiki.jruby.org/IRC
+[lists]: http://wiki.jruby.org/MailingLists
 [jira]: http://jira.codehaus.org/browse/JRUBY
-[wiki]: http://kenai.com/projects/jruby/pages/Home
+[wiki]: http://wiki.jruby.org/
