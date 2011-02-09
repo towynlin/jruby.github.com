@@ -44,7 +44,6 @@ our 1.9.2 compatibility before the final 1.6.0 release.
   - Not implemented Encoding::Converter, ripper
 - Improved Ruby call performance
 - Built-in profiler (--profile, --profile.graph)
-- RubyGems 1.4.2
 - RSpec no longer bundled
 - C Extension support (experimental)
 - RubyGems Maven support (preview)
