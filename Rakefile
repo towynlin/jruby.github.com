@@ -28,7 +28,7 @@ end
 
 desc "Deploy Nginx config changes"
 task :nginx do
-  sh "tar -C conf/ -zcf - . | ssh deploy@jruby.org 'cd /etc/nginx/servers && sudo tar zxf - && sudo /etc/init.d/nginx reload'"
+  sh "tar -C conf/nginx -zcf - . | ssh deploy@jruby.org 'cd /etc/nginx/servers && sudo tar zxf - && sudo /etc/init.d/nginx reload'"
 end
 
 task :default do
