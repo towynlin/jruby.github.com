@@ -85,7 +85,7 @@ Key     Summary
 - JRUBY-4469 Process.spawn seems to be completely broken 
 - JRUBY-2167 Regexp parse errors should not be rescueable
 - JRUBY-5190 BigDecimal#to_f always returns 0.0 for large precisions
-- JRUBY-4446 [windows] File.grpowned? fails RubySpecs
+- JRUBY-4446 windows: File.grpowned? fails RubySpecs
 - JRUBY-5468 rb_time_new prototype doesn't match definition
 - JRUBY-3431 String#encode (and decode?) missing from Ruby 1.9 String
 - JRUBY-5434 Random "Detected invalid array contents due to unsynchronized modifications with concurrent users" with Rails 3.0
