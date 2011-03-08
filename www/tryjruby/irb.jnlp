@@ -13,7 +13,7 @@
 </security>
     <resources>
 <j2se version="1.6+"/>
-    <jar eager="true" href="jruby-complete-signed.jar" main="true"/>
+    <jar eager="true" href="{{ site.urls.s3 }}/tryjruby/jruby-complete-signed.jar" main="true"/>
 </resources>
 <application-desc main-class="org.jruby.demo.IRBConsole">
 </jnlp>
