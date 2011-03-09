@@ -23,6 +23,7 @@ release:
   exejre64: http://jruby.org.s3.amazonaws.com/downloads/1.6.0.RC3/jruby_windows_x64_jre_1_6_0_RC3.exe
 urls:
   s3: http://jruby.org.s3.amazonaws.com/downloads
+  tryjruby: http://jruby.org.s3.amazonaws.com/tryjruby
   jira: http://jira.codehaus.org/browse/JRUBY
   wiki: http://wiki.jruby.org/
   lists: http://wiki.jruby.org/MailingLists
