@@ -23,7 +23,7 @@ of 1.6.0 (and lower) are encouraged to upgrade to 1.6.1.
 - Updated JSR292 (invokedynamic) support
 - 193 commits and 47 issues resolved since 1.6.0
 
-### 1.5.6 Issues Resolved:
+### 1.6.1 Issues Resolved:
 - JRUBY-2126 jirb outputs ???? instead of Japanese characters
 - JRUBY-2488 Ctrl-D does not work in 'jirb'
 - JRUBY-3943 19: IO objects should use internal encoding to transcode output strings
