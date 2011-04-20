@@ -13785,7 +13785,7 @@
       downloads/1.6.0/jruby-bin-1.6.0.tar.gz.md5
     </Key>
     <LastModified>
-      2011-03-15T20:29:45.000Z
+      2011-03-24T02:52:13.000Z
     </LastModified>
     <ETag>
       &quot;e8add0beae7a8af2f43abaa8e92dd1a2&quot;
@@ -13802,7 +13802,7 @@
       downloads/1.6.0/jruby-bin-1.6.0.tar.gz.sha1
     </Key>
     <LastModified>
-      2011-03-15T20:29:46.000Z
+      2011-03-24T02:52:20.000Z
     </LastModified>
     <ETag>
       &quot;808c8eeefe4c1f1bb6994b0b81e28385&quot;
@@ -13836,7 +13836,7 @@
       downloads/1.6.0/jruby-bin-1.6.0.zip.md5
     </Key>
     <LastModified>
-      2011-03-15T20:35:21.000Z
+      2011-03-24T02:52:31.000Z
     </LastModified>
     <ETag>
       &quot;c1bc68f147359e258a2c550febd1cead&quot;
@@ -13853,7 +13853,7 @@
       downloads/1.6.0/jruby-bin-1.6.0.zip.sha1
     </Key>
     <LastModified>
-      2011-03-15T20:35:22.000Z
+      2011-03-24T02:52:37.000Z
     </LastModified>
     <ETag>
       &quot;45bda6048188da584443b0681db36c7f&quot;
@@ -13887,7 +13887,7 @@
       downloads/1.6.0/jruby-complete-1.6.0.jar.md5
     </Key>
     <LastModified>
-      2011-03-15T20:39:24.000Z
+      2011-03-24T02:52:43.000Z
     </LastModified>
     <ETag>
       &quot;7a67fc50e4fe44f1a654f52c02c04a83&quot;
@@ -13904,7 +13904,7 @@
       downloads/1.6.0/jruby-complete-1.6.0.jar.sha1
     </Key>
     <LastModified>
-      2011-03-15T20:39:25.000Z
+      2011-03-24T02:52:55.000Z
     </LastModified>
     <ETag>
       &quot;ba6ed4e65b3180949644397ac2766073&quot;
@@ -13938,7 +13938,7 @@
       downloads/1.6.0/jruby-jars-1.6.0.gem.md5
     </Key>
     <LastModified>
-      2011-03-15T20:42:58.000Z
+      2011-03-24T02:53:02.000Z
     </LastModified>
     <ETag>
       &quot;fc035c2e1f718dddf2eec4e1d1aafd40&quot;
@@ -13955,7 +13955,7 @@
       downloads/1.6.0/jruby-jars-1.6.0.gem.sha1
     </Key>
     <LastModified>
-      2011-03-15T20:43:00.000Z
+      2011-03-24T02:53:06.000Z
     </LastModified>
     <ETag>
       &quot;e31e25ef958df87c121e625a1b5552a9&quot;
@@ -13989,7 +13989,7 @@
       downloads/1.6.0/jruby-src-1.6.0.tar.gz.md5
     </Key>
     <LastModified>
-      2011-03-15T20:47:02.000Z
+      2011-03-24T02:53:10.000Z
     </LastModified>
     <ETag>
       &quot;ab7648566af7cf330845626a3be19971&quot;
@@ -14006,7 +14006,7 @@
       downloads/1.6.0/jruby-src-1.6.0.tar.gz.sha1
     </Key>
     <LastModified>
-      2011-03-15T20:47:03.000Z
+      2011-03-24T02:53:16.000Z
     </LastModified>
     <ETag>
       &quot;109d06855e146abf848df0b209bc0f2e&quot;
@@ -14040,7 +14040,7 @@
       downloads/1.6.0/jruby-src-1.6.0.zip.md5
     </Key>
     <LastModified>
-      2011-03-15T20:51:49.000Z
+      2011-03-24T02:53:22.000Z
     </LastModified>
     <ETag>
       &quot;867da3163e29b488934222223fcad937&quot;
@@ -14057,7 +14057,7 @@
       downloads/1.6.0/jruby-src-1.6.0.zip.sha1
     </Key>
     <LastModified>
-      2011-03-15T20:51:50.000Z
+      2011-03-24T02:53:31.000Z
     </LastModified>
     <ETag>
       &quot;4c5fee6ae4724e508d5d61a87d8e3285&quot;
@@ -14091,7 +14091,7 @@
       downloads/1.6.0/jruby_windows_1_6_0.exe.md5
     </Key>
     <LastModified>
-      2011-03-15T20:08:28.000Z
+      2011-03-24T02:53:36.000Z
     </LastModified>
     <ETag>
       &quot;6852d8246870d84f2620f5442e2983da&quot;
@@ -14108,7 +14108,7 @@
       downloads/1.6.0/jruby_windows_1_6_0.exe.sha1
     </Key>
     <LastModified>
-      2011-03-15T20:08:29.000Z
+      2011-03-24T02:53:41.000Z
     </LastModified>
     <ETag>
       &quot;366175e866e4806e319f7208fa9a41fa&quot;
@@ -14142,7 +14142,7 @@
       downloads/1.6.0/jruby_windows_x64_1_6_0.exe.md5
     </Key>
     <LastModified>
-      2011-03-15T20:10:45.000Z
+      2011-03-24T02:53:48.000Z
     </LastModified>
     <ETag>
       &quot;7ff4034315d23c7e1e02130133cf9dbd&quot;
@@ -14159,7 +14159,7 @@
       downloads/1.6.0/jruby_windows_x64_1_6_0.exe.sha1
     </Key>
     <LastModified>
-      2011-03-15T20:10:46.000Z
+      2011-03-24T02:53:56.000Z
     </LastModified>
     <ETag>
       &quot;23c2096410fb44c3412004a0e0fcbb37&quot;
@@ -14193,7 +14193,7 @@
       downloads/1.6.0/jruby_windows_x64_jre_1_6_0.exe.md5
     </Key>
     <LastModified>
-      2011-03-15T20:18:10.000Z
+      2011-03-24T02:54:00.000Z
     </LastModified>
     <ETag>
       &quot;5fcbe4493901e87da034472099bd3292&quot;
@@ -14210,7 +14210,7 @@
       downloads/1.6.0/jruby_windows_x64_jre_1_6_0.exe.sha1
     </Key>
     <LastModified>
-      2011-03-15T20:18:11.000Z
+      2011-03-24T02:54:05.000Z
     </LastModified>
     <ETag>
       &quot;0ff5a214460fd1ef253e056786e8bf5a&quot;
@@ -14244,7 +14244,7 @@
       downloads/1.6.0/jruby_windowsjre_1_6_0.exe.md5
     </Key>
     <LastModified>
-      2011-03-15T20:25:16.000Z
+      2011-03-24T02:54:37.000Z
     </LastModified>
     <ETag>
       &quot;4067ec4a4297159ffebf64c4c1cfbf45&quot;
@@ -14261,7 +14261,7 @@
       downloads/1.6.0/jruby_windowsjre_1_6_0.exe.sha1
     </Key>
     <LastModified>
-      2011-03-15T20:25:17.000Z
+      2011-03-24T02:54:44.000Z
     </LastModified>
     <ETag>
       &quot;902d8d4833db22969520ee95f8d07dc6&quot;
@@ -14279,6 +14279,533 @@
     </Key>
     <LastModified>
       2011-03-15T20:05:11.000Z
+    </LastModified>
+    <ETag>
+      &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
+    </ETag>
+    <Size>
+      0
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-bin-1.6.1.tar.gz
+    </Key>
+    <LastModified>
+      2011-04-12T17:38:04.000Z
+    </LastModified>
+    <ETag>
+      &quot;bba5d6afeb6048079eeba9f39725e4bc&quot;
+    </ETag>
+    <Size>
+      15237204
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-bin-1.6.1.tar.gz.md5
+    </Key>
+    <LastModified>
+      2011-04-12T17:43:10.000Z
+    </LastModified>
+    <ETag>
+      &quot;a4eb25253fe3f50ca3266f11d1db7bb7&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-bin-1.6.1.tar.gz.sha1
+    </Key>
+    <LastModified>
+      2011-04-12T17:43:11.000Z
+    </LastModified>
+    <ETag>
+      &quot;f8c9be5891063705131d8868bcd44686&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-bin-1.6.1.zip
+    </Key>
+    <LastModified>
+      2011-04-12T17:43:12.000Z
+    </LastModified>
+    <ETag>
+      &quot;071e1826db86239aaee3015ec905d5f6&quot;
+    </ETag>
+    <Size>
+      19225594
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-bin-1.6.1.zip.md5
+    </Key>
+    <LastModified>
+      2011-04-12T17:49:16.000Z
+    </LastModified>
+    <ETag>
+      &quot;174794217a82f2d4dec11f78ad5810e6&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-bin-1.6.1.zip.sha1
+    </Key>
+    <LastModified>
+      2011-04-12T17:49:17.000Z
+    </LastModified>
+    <ETag>
+      &quot;a02bf9eed2da142710f349d8c623328d&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-complete-1.6.1.jar
+    </Key>
+    <LastModified>
+      2011-04-12T17:49:19.000Z
+    </LastModified>
+    <ETag>
+      &quot;0d6780fb3fd2b9fc204a49e1fde41d1e&quot;
+    </ETag>
+    <Size>
+      13411189
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-complete-1.6.1.jar.md5
+    </Key>
+    <LastModified>
+      2011-04-12T17:53:29.000Z
+    </LastModified>
+    <ETag>
+      &quot;10eb42aebe5d2458057a6da3cddde0a9&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-complete-1.6.1.jar.sha1
+    </Key>
+    <LastModified>
+      2011-04-12T17:53:31.000Z
+    </LastModified>
+    <ETag>
+      &quot;cec6cba1e7e37ca9f77800e50568fa7e&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-jars-1.6.1.gem
+    </Key>
+    <LastModified>
+      2011-04-12T17:53:32.000Z
+    </LastModified>
+    <ETag>
+      &quot;6ceeaa29f0d36527b97ee13749e31a22&quot;
+    </ETag>
+    <Size>
+      11841024
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-jars-1.6.1.gem.md5
+    </Key>
+    <LastModified>
+      2011-04-12T18:10:38.000Z
+    </LastModified>
+    <ETag>
+      &quot;b75912e2cc8c3d0f3b0970c842fa2112&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-jars-1.6.1.gem.sha1
+    </Key>
+    <LastModified>
+      2011-04-12T18:10:39.000Z
+    </LastModified>
+    <ETag>
+      &quot;2cf24bd1edba4c4169e7f138d49c7a6b&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-src-1.6.1.tar.gz
+    </Key>
+    <LastModified>
+      2011-04-12T18:10:41.000Z
+    </LastModified>
+    <ETag>
+      &quot;d4724398b7644e4a24456ffa9154289f&quot;
+    </ETag>
+    <Size>
+      13728954
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-src-1.6.1.tar.gz.md5
+    </Key>
+    <LastModified>
+      2011-04-12T18:14:57.000Z
+    </LastModified>
+    <ETag>
+      &quot;f84abc781392fe4a5ff23036e40227dc&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-src-1.6.1.tar.gz.sha1
+    </Key>
+    <LastModified>
+      2011-04-12T18:14:59.000Z
+    </LastModified>
+    <ETag>
+      &quot;39eeae4fe75a64fda4949d0a0f1a627a&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-src-1.6.1.zip
+    </Key>
+    <LastModified>
+      2011-04-12T18:15:00.000Z
+    </LastModified>
+    <ETag>
+      &quot;76b082c8223fa02ed77b47bb6253fd19&quot;
+    </ETag>
+    <Size>
+      16457587
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-src-1.6.1.zip.md5
+    </Key>
+    <LastModified>
+      2011-04-12T18:20:06.000Z
+    </LastModified>
+    <ETag>
+      &quot;fe0853f94c392ac90cc6450dbca00668&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby-src-1.6.1.zip.sha1
+    </Key>
+    <LastModified>
+      2011-04-12T18:20:07.000Z
+    </LastModified>
+    <ETag>
+      &quot;0901478a95153313e6cce51ec50c14be&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby_windows_1_6_1.exe
+    </Key>
+    <LastModified>
+      2011-04-12T16:33:59.000Z
+    </LastModified>
+    <ETag>
+      &quot;5f3124afc073fdb34965d4c1152d1317&quot;
+    </ETag>
+    <Size>
+      9077248
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby_windows_1_6_1.exe.md5
+    </Key>
+    <LastModified>
+      2011-04-12T16:36:49.000Z
+    </LastModified>
+    <ETag>
+      &quot;d2dd4127bc08c1e7a6041477faf9dbc7&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby_windows_1_6_1.exe.sha1
+    </Key>
+    <LastModified>
+      2011-04-12T16:36:51.000Z
+    </LastModified>
+    <ETag>
+      &quot;39e2ff191be1445c745972bbdde3db79&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby_windows_x64_1_6_1.exe
+    </Key>
+    <LastModified>
+      2011-04-12T16:36:52.000Z
+    </LastModified>
+    <ETag>
+      &quot;0f083523f605a574ae95d3302ff1cbd1&quot;
+    </ETag>
+    <Size>
+      8763904
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby_windows_x64_1_6_1.exe.md5
+    </Key>
+    <LastModified>
+      2011-04-12T16:39:33.000Z
+    </LastModified>
+    <ETag>
+      &quot;65a62d6e2a4a49f3c536ff6b50afda74&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby_windows_x64_1_6_1.exe.sha1
+    </Key>
+    <LastModified>
+      2011-04-12T16:39:35.000Z
+    </LastModified>
+    <ETag>
+      &quot;d5640de77789124d66336f218c5739ce&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby_windows_x64_jre_1_6_1.exe
+    </Key>
+    <LastModified>
+      2011-04-12T16:39:36.000Z
+    </LastModified>
+    <ETag>
+      &quot;ceb60a75e170c3412236d55d6d9ec33f&quot;
+    </ETag>
+    <Size>
+      26192384
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby_windows_x64_jre_1_6_1.exe.md5
+    </Key>
+    <LastModified>
+      2011-04-12T16:47:50.000Z
+    </LastModified>
+    <ETag>
+      &quot;a3d88378d7261a90c3f79e7db15b6a44&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby_windows_x64_jre_1_6_1.exe.sha1
+    </Key>
+    <LastModified>
+      2011-04-12T16:47:51.000Z
+    </LastModified>
+    <ETag>
+      &quot;648e7083d2e02dfc8d2ef59a5d2d3e3a&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby_windowsjre_1_6_1.exe
+    </Key>
+    <LastModified>
+      2011-04-12T16:47:52.000Z
+    </LastModified>
+    <ETag>
+      &quot;26daa08588e957d6cce77e5c8b6e6f79&quot;
+    </ETag>
+    <Size>
+      25666048
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby_windowsjre_1_6_1.exe.md5
+    </Key>
+    <LastModified>
+      2011-04-12T16:55:38.000Z
+    </LastModified>
+    <ETag>
+      &quot;0fa8eec8d89bf7e4d5151046e92a013d&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1/jruby_windowsjre_1_6_1.exe.sha1
+    </Key>
+    <LastModified>
+      2011-04-12T16:55:40.000Z
+    </LastModified>
+    <ETag>
+      &quot;99469fbd8a1c6850f18fab63a96644de&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.1_$folder$
+    </Key>
+    <LastModified>
+      2011-04-12T16:19:31.000Z
     </LastModified>
     <ETag>
       &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
