@@ -23,8 +23,8 @@ reported vulnerabilities:
 
 1. Work with the reporter to determine the appropriate fix within
    24-72 hours of the initial email report.
-2. Once the fix has been found, report the vulnerability to
-   [vendor-sec][] with an accompanying embargo of 48 hours.
+2. Once the fix has been found, wait for an embargo period of 48
+   hours.
 3. After the embargo has passed, push out a new software release
    containing the fix.
 4. Send email announcement on [jruby-user][] mailing list containing
