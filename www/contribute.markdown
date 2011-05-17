@@ -24,6 +24,8 @@ JRuby depends on community contributions to survive. Here's how you can get invo
       ant jar
       ant test
 
+**Check out the Hacking Guide** - NaHi built an [awesome Prezi fly-through tour of the JRuby codebase][prezi]. Take a look through it for getting bearings with the codebase.
+
 **Report Bugs** - Our bug tracker uses Atlassian JIRA. Please report anything you think is a bug! Performance problems are considered bugs, so please report those too.
 
 - **Bug Tracker**: [**Browse**]({{ site.urls.jira }})
@@ -41,3 +43,4 @@ JRuby depends on community contributions to survive. Here's how you can get invo
 - **Website**: [**Browse**](http://github.com/jruby/jruby.github.com) &nbsp;|&nbsp;[**Checkout**](git://github.com/jruby/jruby.github.com.git)
 
 [helpwanted]: http://bit.ly/jruby-help-wanted
+[prezi]: http://prezi.com/tsuouxb3z4ln/jruby-hacking-guide/
