@@ -2,6 +2,7 @@ GEM
   remote: http://gems.github.com/
   remote: http://rubygems.org/
   specs:
+    RedCloth (4.2.7)
     RedCloth (4.2.7-java)
     aws-s3 (0.6.2)
       builder
@@ -34,6 +35,7 @@ GEM
 
 PLATFORMS
   java
+  ruby
 
 DEPENDENCIES
   aws-s3
