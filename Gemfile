@@ -3,9 +3,8 @@
 source "http://gems.github.com"
 source "http://rubygems.org"
 gem "mojombo-jekyll"
-gem "rack", "1.0.0"
+gem "rack"
 gem "aws-s3"
 gem "request-log-analyzer"
-platforms :jruby do
-  gem "jruby-openssl"
-end
+gem "jruby-openssl", :platform => :jruby
+

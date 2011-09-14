@@ -7,7 +7,7 @@
 ### This section copied from bin/jekyll file
 require 'jekyll'
 
-options = Jekyll.configuration(options)
+options = Jekyll.configuration({})
 source      = options['source']
 destination = options['destination']
 
