@@ -23,7 +23,7 @@ Most of the JRuby team have blogs, as do many community members. Here's a listin
 
 If you have a blog you think should be listed here, please contact us!
 
-[team]: http://jrubyteam.blogspot.com/
+[team]: http://blog.jruby.org/
 [headius]: http://blog.headius.com/
 [enebo]: http://blog.enebo.com/
 [sieger]: http://blog.nicksieger.com/
