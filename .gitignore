@@ -4,3 +4,4 @@ _site
 /.bundle/config
 /.bundle/environment.rb
 *~
+.DS_Store
