@@ -15910,7 +15910,7 @@
       downloads/1.6.4/jruby-bin-1.6.4.tar.gz.md5
     </Key>
     <LastModified>
-      2011-08-23T18:04:26.000Z
+      2011-08-24T21:29:24.000Z
     </LastModified>
     <ETag>
       &quot;8bbd6c34c259bccf45d2e0b6b42af1e6&quot;
@@ -15927,7 +15927,7 @@
       downloads/1.6.4/jruby-bin-1.6.4.tar.gz.sha1
     </Key>
     <LastModified>
-      2011-08-23T18:04:27.000Z
+      2011-08-24T21:29:25.000Z
     </LastModified>
     <ETag>
       &quot;85975402c90fc4e5feabc6e758a0faec&quot;
@@ -15961,7 +15961,7 @@
       downloads/1.6.4/jruby-bin-1.6.4.zip.md5
     </Key>
     <LastModified>
-      2011-08-23T18:08:08.000Z
+      2011-08-24T21:29:27.000Z
     </LastModified>
     <ETag>
       &quot;c36125ed63aad5112941158305e13205&quot;
@@ -15978,7 +15978,7 @@
       downloads/1.6.4/jruby-bin-1.6.4.zip.sha1
     </Key>
     <LastModified>
-      2011-08-23T18:08:10.000Z
+      2011-08-24T21:29:28.000Z
     </LastModified>
     <ETag>
       &quot;eae6db4b2ca44a49c544d74b1344ea7e&quot;
@@ -16012,7 +16012,7 @@
       downloads/1.6.4/jruby-complete-1.6.4.jar.md5
     </Key>
     <LastModified>
-      2011-08-23T18:10:39.000Z
+      2011-08-24T21:29:29.000Z
     </LastModified>
     <ETag>
       &quot;72a7e4b0537bfc58db7b5947f272155e&quot;
@@ -16029,7 +16029,7 @@
       downloads/1.6.4/jruby-complete-1.6.4.jar.sha1
     </Key>
     <LastModified>
-      2011-08-23T18:10:40.000Z
+      2011-08-24T21:29:31.000Z
     </LastModified>
     <ETag>
       &quot;4be1eafd1298771fe58f69a897e57ec4&quot;
@@ -16063,7 +16063,7 @@
       downloads/1.6.4/jruby-jars-1.6.4.gem.md5
     </Key>
     <LastModified>
-      2011-08-23T18:12:44.000Z
+      2011-08-24T21:29:32.000Z
     </LastModified>
     <ETag>
       &quot;aad4a945a92551cc86dc50127712fc14&quot;
@@ -16080,7 +16080,7 @@
       downloads/1.6.4/jruby-jars-1.6.4.gem.sha1
     </Key>
     <LastModified>
-      2011-08-23T18:12:46.000Z
+      2011-08-24T21:29:35.000Z
     </LastModified>
     <ETag>
       &quot;1a77270ced0990fd4ed53d35555773ab&quot;
@@ -16114,7 +16114,7 @@
       downloads/1.6.4/jruby-src-1.6.4.tar.gz.md5
     </Key>
     <LastModified>
-      2011-08-23T18:15:20.000Z
+      2011-08-24T21:29:36.000Z
     </LastModified>
     <ETag>
       &quot;5a336591b28d3358d4d1782dbd5f1e98&quot;
@@ -16131,7 +16131,7 @@
       downloads/1.6.4/jruby-src-1.6.4.tar.gz.sha1
     </Key>
     <LastModified>
-      2011-08-23T18:15:21.000Z
+      2011-08-24T21:29:37.000Z
     </LastModified>
     <ETag>
       &quot;2e5ed2c2063c7868e657302a160fc7d5&quot;
@@ -16165,7 +16165,7 @@
       downloads/1.6.4/jruby-src-1.6.4.zip.md5
     </Key>
     <LastModified>
-      2011-08-23T18:18:31.000Z
+      2011-08-24T21:29:39.000Z
     </LastModified>
     <ETag>
       &quot;5e563c21dd4fe68344141c45efa345dc&quot;
@@ -16182,7 +16182,7 @@
       downloads/1.6.4/jruby-src-1.6.4.zip.sha1
     </Key>
     <LastModified>
-      2011-08-23T18:18:32.000Z
+      2011-08-24T21:29:40.000Z
     </LastModified>
     <ETag>
       &quot;ec064eb27875bddca851474568ce3be1&quot;
@@ -16216,7 +16216,7 @@
       downloads/1.6.4/jruby_windows_1_6_4.exe.md5
     </Key>
     <LastModified>
-      2011-08-23T17:47:20.000Z
+      2011-08-24T21:29:41.000Z
     </LastModified>
     <ETag>
       &quot;bd2324aaff2e2d5c693d41602d286148&quot;
@@ -16233,7 +16233,7 @@
       downloads/1.6.4/jruby_windows_1_6_4.exe.sha1
     </Key>
     <LastModified>
-      2011-08-23T17:47:22.000Z
+      2011-08-24T21:29:42.000Z
     </LastModified>
     <ETag>
       &quot;ff4c44d06be6ac2691b0fc44dd3f5bb8&quot;
@@ -16267,7 +16267,7 @@
       downloads/1.6.4/jruby_windows_x64_1_6_4.exe.md5
     </Key>
     <LastModified>
-      2011-08-23T17:48:59.000Z
+      2011-08-24T21:29:43.000Z
     </LastModified>
     <ETag>
       &quot;0560d6d5a0df7475c53cb80cc7d1f9fe&quot;
@@ -16284,7 +16284,7 @@
       downloads/1.6.4/jruby_windows_x64_1_6_4.exe.sha1
     </Key>
     <LastModified>
-      2011-08-23T17:49:00.000Z
+      2011-08-24T21:29:45.000Z
     </LastModified>
     <ETag>
       &quot;52f2be2605776e1e5e38c99bb3c25c0e&quot;
@@ -16318,7 +16318,7 @@
       downloads/1.6.4/jruby_windows_x64_jre_1_6_4.exe.md5
     </Key>
     <LastModified>
-      2011-08-23T17:53:50.000Z
+      2011-08-24T21:29:47.000Z
     </LastModified>
     <ETag>
       &quot;b63eaa8e8bba13bf3817bb1b49238d4f&quot;
@@ -16335,7 +16335,7 @@
       downloads/1.6.4/jruby_windows_x64_jre_1_6_4.exe.sha1
     </Key>
     <LastModified>
-      2011-08-23T17:53:51.000Z
+      2011-08-24T21:29:48.000Z
     </LastModified>
     <ETag>
       &quot;6a717c859a766ae60b9a0a845c40d686&quot;
@@ -16369,7 +16369,7 @@
       downloads/1.6.4/jruby_windowsjre_1_6_4.exe.md5
     </Key>
     <LastModified>
-      2011-08-23T17:58:32.000Z
+      2011-08-24T21:29:49.000Z
     </LastModified>
     <ETag>
       &quot;9fbea0297527aa580938250d99331f58&quot;
@@ -16386,7 +16386,7 @@
       downloads/1.6.4/jruby_windowsjre_1_6_4.exe.sha1
     </Key>
     <LastModified>
-      2011-08-23T17:58:33.000Z
+      2011-08-24T21:29:51.000Z
     </LastModified>
     <ETag>
       &quot;f8fd3a1d66d2f2d67737c7d28ce830a0&quot;
@@ -16404,6 +16404,550 @@
     </Key>
     <LastModified>
       2011-08-23T17:44:15.000Z
+    </LastModified>
+    <ETag>
+      &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
+    </ETag>
+    <Size>
+      0
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/JRuby-1.6.5.dmg
+    </Key>
+    <LastModified>
+      2011-10-25T16:05:49.000Z
+    </LastModified>
+    <ETag>
+      &quot;4465a0b9e0befe46669c418744f4af68&quot;
+    </ETag>
+    <Size>
+      15937006
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-bin-1.6.5.tar.gz
+    </Key>
+    <LastModified>
+      2011-10-25T16:08:51.000Z
+    </LastModified>
+    <ETag>
+      &quot;54354082673bd115f945890dc6864413&quot;
+    </ETag>
+    <Size>
+      15329206
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-bin-1.6.5.tar.gz.md5
+    </Key>
+    <LastModified>
+      2011-10-25T16:11:46.000Z
+    </LastModified>
+    <ETag>
+      &quot;7d46f9bd9a5c5abf722f7ef89e01e763&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-bin-1.6.5.tar.gz.sha1
+    </Key>
+    <LastModified>
+      2011-10-25T16:11:47.000Z
+    </LastModified>
+    <ETag>
+      &quot;842085375d6e207757861a8fe44e22a1&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-bin-1.6.5.zip
+    </Key>
+    <LastModified>
+      2011-10-25T16:11:49.000Z
+    </LastModified>
+    <ETag>
+      &quot;f56e6ffc1dcf4927bad3ea865c364dce&quot;
+    </ETag>
+    <Size>
+      19373918
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-bin-1.6.5.zip.md5
+    </Key>
+    <LastModified>
+      2011-10-25T16:15:41.000Z
+    </LastModified>
+    <ETag>
+      &quot;79be7ac86b9588c19feab045a8f6d5a0&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-bin-1.6.5.zip.sha1
+    </Key>
+    <LastModified>
+      2011-10-25T16:15:42.000Z
+    </LastModified>
+    <ETag>
+      &quot;b280d4b948361827dc2574e83d3a213c&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-complete-1.6.5.jar
+    </Key>
+    <LastModified>
+      2011-10-25T16:15:44.000Z
+    </LastModified>
+    <ETag>
+      &quot;9f3bedb1199a37e325315bb5c7fcc82d&quot;
+    </ETag>
+    <Size>
+      13311450
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-complete-1.6.5.jar.md5
+    </Key>
+    <LastModified>
+      2011-10-25T16:18:14.000Z
+    </LastModified>
+    <ETag>
+      &quot;7aa1873dcae66d2d87609dfc2409964b&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-complete-1.6.5.jar.sha1
+    </Key>
+    <LastModified>
+      2011-10-25T16:18:15.000Z
+    </LastModified>
+    <ETag>
+      &quot;76400c8092a89388038ef9856702c84a&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-jars-1.6.5.gem
+    </Key>
+    <LastModified>
+      2011-10-25T16:18:16.000Z
+    </LastModified>
+    <ETag>
+      &quot;5d4b2da39b30651879cf67850466d727&quot;
+    </ETag>
+    <Size>
+      11172864
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-jars-1.6.5.gem.md5
+    </Key>
+    <LastModified>
+      2011-10-25T16:20:21.000Z
+    </LastModified>
+    <ETag>
+      &quot;db65c62f900d4448eda417f22a54cde8&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-jars-1.6.5.gem.sha1
+    </Key>
+    <LastModified>
+      2011-10-25T16:20:23.000Z
+    </LastModified>
+    <ETag>
+      &quot;fd214b47a3dee6a55b744ea9d131630c&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-src-1.6.5.tar.gz
+    </Key>
+    <LastModified>
+      2011-10-25T16:20:24.000Z
+    </LastModified>
+    <ETag>
+      &quot;37897a8fcc3f285b6e06ca1f0263f427&quot;
+    </ETag>
+    <Size>
+      14282074
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-src-1.6.5.tar.gz.md5
+    </Key>
+    <LastModified>
+      2011-10-25T16:23:05.000Z
+    </LastModified>
+    <ETag>
+      &quot;35161cf50f1be94647647bd9d66dacc9&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-src-1.6.5.tar.gz.sha1
+    </Key>
+    <LastModified>
+      2011-10-25T16:23:07.000Z
+    </LastModified>
+    <ETag>
+      &quot;b0325b8977063da3e8123a99c14ca614&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-src-1.6.5.zip
+    </Key>
+    <LastModified>
+      2011-10-25T16:23:08.000Z
+    </LastModified>
+    <ETag>
+      &quot;5ac5c49266012bc3de64f4294e849ed6&quot;
+    </ETag>
+    <Size>
+      17067587
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-src-1.6.5.zip.md5
+    </Key>
+    <LastModified>
+      2011-10-25T16:26:27.000Z
+    </LastModified>
+    <ETag>
+      &quot;bd69c24830320273c8f9dcc2cfb869ee&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby-src-1.6.5.zip.sha1
+    </Key>
+    <LastModified>
+      2011-10-25T16:26:28.000Z
+    </LastModified>
+    <ETag>
+      &quot;24c276d242c7b6ad8108adde4cd1d904&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby_windows_1_6_5.exe
+    </Key>
+    <LastModified>
+      2011-10-25T15:52:52.000Z
+    </LastModified>
+    <ETag>
+      &quot;5fcdd80b8125000331e7b6f00adc676e&quot;
+    </ETag>
+    <Size>
+      8239104
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby_windows_1_6_5.exe.md5
+    </Key>
+    <LastModified>
+      2011-10-25T15:54:25.000Z
+    </LastModified>
+    <ETag>
+      &quot;44ec09934c35005e44579110e4a213e1&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby_windows_1_6_5.exe.sha1
+    </Key>
+    <LastModified>
+      2011-10-25T15:54:27.000Z
+    </LastModified>
+    <ETag>
+      &quot;d87979deaa91fd46c09a3bd6acfb4227&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby_windows_x64_1_6_5.exe
+    </Key>
+    <LastModified>
+      2011-10-25T15:54:28.000Z
+    </LastModified>
+    <ETag>
+      &quot;787f7304ca509a62f36e58fb6c5401ad&quot;
+    </ETag>
+    <Size>
+      7926272
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby_windows_x64_1_6_5.exe.md5
+    </Key>
+    <LastModified>
+      2011-10-25T15:55:58.000Z
+    </LastModified>
+    <ETag>
+      &quot;9d88d3b862091bd782db61912aafd668&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby_windows_x64_1_6_5.exe.sha1
+    </Key>
+    <LastModified>
+      2011-10-25T15:55:59.000Z
+    </LastModified>
+    <ETag>
+      &quot;d0923bfbee5e7efe4950cd3af3b6e76e&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby_windows_x64_jre_1_6_5.exe
+    </Key>
+    <LastModified>
+      2011-10-25T15:56:01.000Z
+    </LastModified>
+    <ETag>
+      &quot;20082ff17d769315808b5e64d046e30a&quot;
+    </ETag>
+    <Size>
+      25354240
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby_windows_x64_jre_1_6_5.exe.md5
+    </Key>
+    <LastModified>
+      2011-10-25T16:00:45.000Z
+    </LastModified>
+    <ETag>
+      &quot;a3f6c46e32960ef0ef616abf75767c4d&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby_windows_x64_jre_1_6_5.exe.sha1
+    </Key>
+    <LastModified>
+      2011-10-25T16:00:46.000Z
+    </LastModified>
+    <ETag>
+      &quot;c11a057ba8d0715d6ec084ce02b12ba9&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby_windowsjre_1_6_5.exe
+    </Key>
+    <LastModified>
+      2011-10-25T16:00:47.000Z
+    </LastModified>
+    <ETag>
+      &quot;41b1e88b525c67b4734a3544d7d74e03&quot;
+    </ETag>
+    <Size>
+      24827904
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby_windowsjre_1_6_5.exe.md5
+    </Key>
+    <LastModified>
+      2011-10-25T16:05:46.000Z
+    </LastModified>
+    <ETag>
+      &quot;5344bc4ea25edf29f9319aa311b2f853&quot;
+    </ETag>
+    <Size>
+      33
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5/jruby_windowsjre_1_6_5.exe.sha1
+    </Key>
+    <LastModified>
+      2011-10-25T16:05:47.000Z
+    </LastModified>
+    <ETag>
+      &quot;bb8cc3dcd90ef324feceafaf3ac2a9c0&quot;
+    </ETag>
+    <Size>
+      41
+    </Size>
+    <StorageClass>
+      STANDARD
+    </StorageClass>
+  </Contents>
+  <Contents>
+    <Key>
+      downloads/1.6.5_$folder$
+    </Key>
+    <LastModified>
+      2011-10-25T15:51:59.000Z
     </LastModified>
     <ETag>
       &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
@@ -16478,550 +17022,6 @@
     </ETag>
     <Size>
       2732
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-19-31-07-579C94156175E285
-    </Key>
-    <LastModified>
-      2011-08-09T19:31:08.000Z
-    </LastModified>
-    <ETag>
-      &quot;fbed7f0e193fb0f307d41e00827dd058&quot;
-    </ETag>
-    <Size>
-      3734
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-19-33-40-260F3F6D274AEA68
-    </Key>
-    <LastModified>
-      2011-08-09T19:33:41.000Z
-    </LastModified>
-    <ETag>
-      &quot;24c5907bc827bdd5400b53d6961c7dda&quot;
-    </ETag>
-    <Size>
-      3393
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-19-37-41-80FD4D19434224FD
-    </Key>
-    <LastModified>
-      2011-08-09T19:37:42.000Z
-    </LastModified>
-    <ETag>
-      &quot;558751ffa463278f57db78c9e640ef20&quot;
-    </ETag>
-    <Size>
-      1633
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-19-40-45-13E76935A6EEEF16
-    </Key>
-    <LastModified>
-      2011-08-09T19:40:46.000Z
-    </LastModified>
-    <ETag>
-      &quot;8eb73373d8b428b7dc18718ef514ecd0&quot;
-    </ETag>
-    <Size>
-      3194
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-19-41-02-1876019BF128248B
-    </Key>
-    <LastModified>
-      2011-08-09T19:41:03.000Z
-    </LastModified>
-    <ETag>
-      &quot;cecbf55335a6bd7ecd9c09f03b16933b&quot;
-    </ETag>
-    <Size>
-      1950
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-19-46-24-AF2C55CFAAB4D23B
-    </Key>
-    <LastModified>
-      2011-08-09T19:46:25.000Z
-    </LastModified>
-    <ETag>
-      &quot;354c97e68fce7c1b43662d0d96be3b0b&quot;
-    </ETag>
-    <Size>
-      2059
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-19-52-04-86DFFC5E8B5E77E4
-    </Key>
-    <LastModified>
-      2011-08-09T19:52:05.000Z
-    </LastModified>
-    <ETag>
-      &quot;caaaf21b6953f0145a8fc2f3b8d67c23&quot;
-    </ETag>
-    <Size>
-      4234
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-19-52-20-D6503FEAD75C0E82
-    </Key>
-    <LastModified>
-      2011-08-09T19:52:21.000Z
-    </LastModified>
-    <ETag>
-      &quot;2ee6a31b539c7f93b8ec134144ba6242&quot;
-    </ETag>
-    <Size>
-      3511
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-19-54-43-F0BD051339AD0794
-    </Key>
-    <LastModified>
-      2011-08-09T19:54:44.000Z
-    </LastModified>
-    <ETag>
-      &quot;ff40e067971dec17d9bea0bc557725ef&quot;
-    </ETag>
-    <Size>
-      4230
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-19-59-54-383282970DBBCB6B
-    </Key>
-    <LastModified>
-      2011-08-09T19:59:55.000Z
-    </LastModified>
-    <ETag>
-      &quot;7ec5325ade7877d7d20f373e1927017b&quot;
-    </ETag>
-    <Size>
-      2995
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-00-43-20C7AC5E7C16BEDA
-    </Key>
-    <LastModified>
-      2011-08-09T20:00:44.000Z
-    </LastModified>
-    <ETag>
-      &quot;5772f2445f0bdc262ea64c3c34fd1399&quot;
-    </ETag>
-    <Size>
-      2480
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-03-24-BA98CA8FAEAE9E44
-    </Key>
-    <LastModified>
-      2011-08-09T20:03:25.000Z
-    </LastModified>
-    <ETag>
-      &quot;22b83c9369fa76ac4b2fca468de0b5f3&quot;
-    </ETag>
-    <Size>
-      873
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-07-27-4D2E25A284C621A0
-    </Key>
-    <LastModified>
-      2011-08-09T20:07:28.000Z
-    </LastModified>
-    <ETag>
-      &quot;d072e1ce57fe107ab2d6b20283e20986&quot;
-    </ETag>
-    <Size>
-      2304
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-07-57-6938EC866099BB7B
-    </Key>
-    <LastModified>
-      2011-08-09T20:07:58.000Z
-    </LastModified>
-    <ETag>
-      &quot;22e92a665a58ebbee6f2aa19f8aa5560&quot;
-    </ETag>
-    <Size>
-      1456
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-08-07-33095A96C19BF2D0
-    </Key>
-    <LastModified>
-      2011-08-09T20:08:08.000Z
-    </LastModified>
-    <ETag>
-      &quot;207c51c592b5f59711a089aa2bbba193&quot;
-    </ETag>
-    <Size>
-      2608
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-14-24-A3A3C57D7B8A5B12
-    </Key>
-    <LastModified>
-      2011-08-09T20:14:25.000Z
-    </LastModified>
-    <ETag>
-      &quot;55bd11c7c728b3a3afe4d87aa9fe49d5&quot;
-    </ETag>
-    <Size>
-      1908
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-17-45-CCD3BA534B0D2150
-    </Key>
-    <LastModified>
-      2011-08-09T20:17:46.000Z
-    </LastModified>
-    <ETag>
-      &quot;225ad460763cf29edfa101ed5281f863&quot;
-    </ETag>
-    <Size>
-      2210
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-17-55-CA681EE5D8B854E2
-    </Key>
-    <LastModified>
-      2011-08-09T20:17:56.000Z
-    </LastModified>
-    <ETag>
-      &quot;7e1a0b070b3b899926e0fc6da20e36ca&quot;
-    </ETag>
-    <Size>
-      3636
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-18-39-C8004BC53048F1D0
-    </Key>
-    <LastModified>
-      2011-08-09T20:18:40.000Z
-    </LastModified>
-    <ETag>
-      &quot;f024b5c0f9e77187a99ff3232aca95e0&quot;
-    </ETag>
-    <Size>
-      2173
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-18-55-F929DC9956097E21
-    </Key>
-    <LastModified>
-      2011-08-09T20:18:56.000Z
-    </LastModified>
-    <ETag>
-      &quot;7cdda78f473aedfcd683b9b9c5529fe9&quot;
-    </ETag>
-    <Size>
-      784
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-18-56-2E224143FFD6CB6F
-    </Key>
-    <LastModified>
-      2011-08-09T20:18:57.000Z
-    </LastModified>
-    <ETag>
-      &quot;d5f5fb800f0a7db86cb0ba21573ca70c&quot;
-    </ETag>
-    <Size>
-      1145
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-21-39-8F5CE0EB9216F424
-    </Key>
-    <LastModified>
-      2011-08-09T20:21:40.000Z
-    </LastModified>
-    <ETag>
-      &quot;8002cd8903a340f02db13670d6c7f8ec&quot;
-    </ETag>
-    <Size>
-      1860
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-23-57-05DBEEA1986E91ED
-    </Key>
-    <LastModified>
-      2011-08-09T20:23:58.000Z
-    </LastModified>
-    <ETag>
-      &quot;b5454a56853c09079053c38a7cef4f7e&quot;
-    </ETag>
-    <Size>
-      3415
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-25-38-EE5DA537F3C46169
-    </Key>
-    <LastModified>
-      2011-08-09T20:25:39.000Z
-    </LastModified>
-    <ETag>
-      &quot;4fe9eecb5e499af018f873c8d6a660ab&quot;
-    </ETag>
-    <Size>
-      2711
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-29-20-340812FE5797ABF8
-    </Key>
-    <LastModified>
-      2011-08-09T20:29:21.000Z
-    </LastModified>
-    <ETag>
-      &quot;3b5daead84afd824de68833e09b3e29d&quot;
-    </ETag>
-    <Size>
-      3609
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-30-13-25BE7B7BB2FAE278
-    </Key>
-    <LastModified>
-      2011-08-09T20:30:14.000Z
-    </LastModified>
-    <ETag>
-      &quot;9042cc0a3c2eb78c03c828bf3a4b0a18&quot;
-    </ETag>
-    <Size>
-      263
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-32-01-A047C3FCD8886F89
-    </Key>
-    <LastModified>
-      2011-08-09T20:32:02.000Z
-    </LastModified>
-    <ETag>
-      &quot;2cffddff332a00ed4d676f0bab754113&quot;
-    </ETag>
-    <Size>
-      3929
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-34-04-BB604BB009F24CA1
-    </Key>
-    <LastModified>
-      2011-08-09T20:34:05.000Z
-    </LastModified>
-    <ETag>
-      &quot;8d969977af4cf525bc6625412bb5d3f0&quot;
-    </ETag>
-    <Size>
-      2977
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-38-21-0F3CAAE236B86F3E
-    </Key>
-    <LastModified>
-      2011-08-09T20:38:22.000Z
-    </LastModified>
-    <ETag>
-      &quot;0c2df5bceb4af4a14f7b8b737ea48146&quot;
-    </ETag>
-    <Size>
-      1199
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-43-09-7698133AA6185A20
-    </Key>
-    <LastModified>
-      2011-08-09T20:43:10.000Z
-    </LastModified>
-    <ETag>
-      &quot;685bd3075983b3d2cfaeae0bbfbbafff&quot;
-    </ETag>
-    <Size>
-      2412
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-43-35-2EEEA0B1BA05FAFC
-    </Key>
-    <LastModified>
-      2011-08-09T20:43:36.000Z
-    </LastModified>
-    <ETag>
-      &quot;aed09695115a9a4c5d6e83a0f96906cb&quot;
-    </ETag>
-    <Size>
-      3008
-    </Size>
-    <StorageClass>
-      STANDARD
-    </StorageClass>
-  </Contents>
-  <Contents>
-    <Key>
-      log/access_log-2011-08-09-20-45-17-06EB365B675ABC80
-    </Key>
-    <LastModified>
-      2011-08-09T20:45:18.000Z
-    </LastModified>
-    <ETag>
-      &quot;14306afb50b84e0423b4e72027706d37&quot;
-    </ETag>
-    <Size>
-      2035
     </Size>
     <StorageClass>
       STANDARD
