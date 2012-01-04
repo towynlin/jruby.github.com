@@ -33,6 +33,11 @@ reported vulnerabilities:
 
 ## Known vulnerabilities
 
+### December 27, 2011 -- JRuby 1.6.5.1
+
+Recommended upgrade. Potential for DOS attacks with specially crafted large
+hash/parameter lists. See [the announcement for details][jruby1651].
+
 ### April 26, 2010 -- JRuby 1.4.1
 
 Recommended upgrade. Potential for XSS attacks on prior versions of
@@ -49,3 +54,4 @@ OpenSSL::SSL::VERIFY_PEER mode and jruby-openssl 0.5.2 or earlier. See
 [vendor-sec]: http://oss-security.openwall.org/wiki/mailing-lists/vendor-sec
 [jruby-user]: http://wiki.jruby.org/MailingLists
 [jruby141]: 2010/04/26/jruby-1-4-1-xss-vulnerability
+[jruby1651]: 2011/12/27/jruby-1-6-5-1
