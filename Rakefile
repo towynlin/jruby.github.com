@@ -28,7 +28,9 @@ end
 
 desc "Deploy jruby.org config changes"
 task :cookbooks do
-  sh "ey recipes upload --environment jruby_ci --apply"
+  Bundler.with_clean_env do
+    sh "ey recipes upload --environment jruby_ci --apply"
+  end
 end
 
 task :nginx => :cookbooks
