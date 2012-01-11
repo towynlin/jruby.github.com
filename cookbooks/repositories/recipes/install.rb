@@ -33,4 +33,10 @@ read oldrev newrev refname
 git push github `basename $refname`
 SCR
   end
+
+  file "/home/git/repositories/#{repo}.git/git-daemon-export-ok" do
+    owner "git"
+    group "git"
+    mode 0644
+  end
 end
