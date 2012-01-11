@@ -10,12 +10,16 @@
 
 execute "checkout /home/git/gitosis" do
   cwd "/home/git"
+  user "git"
+  group "git"
   command "git clone git://eagain.net/gitosis.git"
   not_if { File.directory?("/home/git/gitosis") }
 end
 
 execute "sync /home/git/gitosis" do
   cwd "/home/git/gitosis"
+  user "git"
+  group "git"
   command "git pull origin master"
   not_if { File.exist?("/home/git/.gitosis.conf") }
 end
@@ -27,7 +31,6 @@ execute "install-gitosis" do
 end
 
 update_file "/tmp/pubkey.txt" do
-  path "/tmp/pubkey.txt"
   owner "git"
   group "git"
   mode 0644
@@ -42,13 +45,10 @@ end
 
 execute "clone-gitosis-admin" do
   cwd "/home/git/repositories/"
+  user "git"
+  group "git"
   command "git clone --bare git://github.com/jruby/gitosis-admin.git"
   not_if { File.directory?("/home/git/repositories/gitosis-admin.git") }
-end
-
-execute "chown-git-all" do
-  cwd "/home/git"
-  command "chown -R git:git ."
 end
 
 execute "initialize-gitosis" do

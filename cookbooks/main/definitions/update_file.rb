@@ -1,6 +1,4 @@
 define :update_file, :action => :append do
-  require 'tempfile'
-
   filepath = params[:path] || params[:name]
 
   file params[:name] do
