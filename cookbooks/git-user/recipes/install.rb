@@ -59,13 +59,15 @@ directory "/home/git/.ssh" do
   mode 0700
 end
 
+execute 'add-github-to-ssh-known-hosts' do
+  known_hosts = "/home/git/.ssh/known_hosts"
+  not_if { File.exists?(known_hosts) && IO.readlines(known_hosts).detect {|l| l =~ /github.com/} }
+  command "ssh-keyscan -t rsa,dsa github.com >> #{known_hosts}"
+end
+
 execute "generate-id-rsa" do
   user "git"
   group "git"
   command "ssh-keygen -q -t rsa -f /home/git/.ssh/id_rsa -N ''"
   not_if { File.exist?("/home/git/.ssh/id_rsa") }
-end
-
-execute "dump-pubkey" do
-  command "echo 'Install this public key into Github' && echo && cat /home/git/.ssh/id_rsa.pub"
 end
