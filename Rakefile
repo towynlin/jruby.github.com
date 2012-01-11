@@ -26,10 +26,12 @@ task :deploy => :generate do
   sh "tar -C _site/ -zcf - . | ssh deploy@jruby.org 'cd /data/jruby.org && tar zxf -'"
 end
 
-desc "Deploy Nginx config changes"
-task :nginx do
-  sh "tar -C conf/nginx -zcf - . | ssh deploy@jruby.org 'cd /etc/nginx/servers && sudo tar zxf - && sudo /etc/init.d/nginx reload'"
+desc "Deploy jruby.org config changes"
+task :cookbooks do
+  sh "ey recipes upload --environment jruby_ci --apply"
 end
+
+task :nginx => :cookbooks
 
 task :default do
   puts "JRuby.org documentation site. Available tasks:"
