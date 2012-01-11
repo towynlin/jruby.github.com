@@ -52,3 +52,20 @@ end
 execute "chown homedir to user" do
   command "chown -R #{user_obj[:username]}:#{user_obj[:username]} /data/homedirs/#{user_obj[:username]}"
 end
+
+directory "/home/git/.ssh" do
+  owner user_obj[:uid]
+  group user_obj[:gid]
+  mode 0700
+end
+
+execute "generate-id-rsa" do
+  user "git"
+  group "git"
+  command "ssh-keygen -q -t rsa -f /home/git/.ssh/id_rsa -N ''"
+  not_if { File.exist?("/home/git/.ssh/id_rsa") }
+end
+
+execute "dump-pubkey" do
+  command "echo 'Install this public key into Github' && echo && cat /home/git/.ssh/id_rsa.pub"
+end
