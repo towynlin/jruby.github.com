@@ -14,7 +14,7 @@ service "nginx" do
 end
 
 remote_file "/data/nginx/servers/jruby.conf" do
-  action :create_if_missing
+  action :create
   source 'jruby.conf'
   owner node[:owner_name]
   group node[:owner_name]
