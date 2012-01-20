@@ -8,7 +8,7 @@ JRuby depends on community contributions to survive. Here's how you can get invo
 
 **Get the Source** - The JRuby source is stored in our Git repository at JRuby.org and mirrored at GitHub.
 
-- **Browse**: [**JRuby.org**](http://www.jruby.org/git?p=jruby.git;a=summary)&nbsp;|&nbsp;[**GitHub**](http://github.com/jruby/jruby)
+- **Browse**: [**GitHub**](http://github.com/jruby/jruby)
 - **Checkout**
 
       git clone git://jruby.org/jruby.git
