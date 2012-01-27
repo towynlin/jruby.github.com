@@ -13,6 +13,15 @@ service "nginx" do
   supports :restart => true, :status => true
 end
 
+remote_file "/data/nginx/servers/jrubyconf/custom.conf" do
+  action :create
+  source 'jrubyconf-custom.conf'
+  owner node[:owner_name]
+  group node[:owner_name]
+  mode 0644
+  notifies :restart, resources(:service => "nginx"), :delayed
+end
+
 remote_file "/data/nginx/servers/jruby.conf" do
   action :create
   source 'jruby.conf'
