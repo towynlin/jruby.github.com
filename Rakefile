@@ -48,18 +48,11 @@ task :check_pygments do
   $?.success? or raise "Pygments not installed, see http://pygments.org/docs/installation/"
 end
 
-file 's3manifest.xml' do |t|
-  require 'open-uri'
-  open("http://jruby.org.s3.amazonaws.com/") do |xml|
-    File.open(t.name, "wb") {|f| manifest_xml(xml).write(f, 2) }
-  end
-end
-
 desc "Create browsable index.html files for S3"
-task :indexes => 's3manifest.xml' do
+task :indexes do
   top = "www/files"
   mkdir_p top, :verbose => false
-  sorted_manifest_directories.each do |dir,entries|
+  sorted_files.each do |dir,entries|
     mkdir_p File.expand_path(File.join(top, dir)), :verbose => false
     File.open(File.expand_path(File.join(top, dir, "index.html")), "wb") do |html|
       write_index_html(html, dir, entries)
@@ -68,20 +61,14 @@ task :indexes => 's3manifest.xml' do
 end
 
 task :update_hash_files do
-  jruby_org_bucket.objects.each do |obj|
-    next unless obj.key =~ /\.(md5|sha1)$/
-    unless obj.content_type == "text/plain"
-      puts "Updating #{obj.key} to Content-Type: text/plain"
-      obj.content_type = "text/plain"
-      obj.store
-      add_public_read_perm(obj)
+  jruby_org_bucket.files.tap {|fs| fs.prefix = 'downloads/' }.each do |file|
+    next unless file.key =~ /\.(md5|sha1)$/
+    unless file.content_type == "text/plain"
+      puts "Updating #{file.key} to Content-Type: text/plain"
+      file.content_type = "text/plain"
+      file.public = true
+      file.save
     end
-  end
-end
-
-task :update_read_perms do
-  jruby_org_bucket.objects.each do |obj|
-    add_public_read_perm(obj)
   end
 end
 

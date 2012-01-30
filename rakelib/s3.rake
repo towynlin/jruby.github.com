@@ -1,15 +1,13 @@
-def manifest_xml(stream = File.new('s3manifest.xml'))
-  require 'rexml/document'
-  @doc ||= REXML::Document.new(stream)
-end
+INDEXED_FOLDERS = %w(downloads prerelease presentations tryjruby)
 
-def manifest_entries
-  manifest_xml.root.elements.to_a('/ListBucketResult/Contents/Key')
-end
-
-def sorted_manifest_directories
-  entries = manifest_entries.map do |el|
-    el.text.strip.sub(/_\$folder\$$/, '/')
+def sorted_files
+  entries = []
+  INDEXED_FOLDERS.each do |folder|
+    collection = jruby_org_bucket.files.dup
+    collection.prefix = folder
+    collection.each do |f|
+      entries << f.key.sub(/_\$folder\$$/, '/')
+    end
   end
   dirs = {"." => []}
   entries.sort.each do |f|
@@ -41,28 +39,17 @@ HDR
   html.puts "</p>"
 end
 
-def s3_connect
-  require 'aws/s3'
-  begin
-    AWS::S3::Base.connection
-  rescue
-    ey_cloud = open(File.expand_path('~/.ey-cloud.yml')) { |f| YAML::load(f) }
-    AWS::S3::Base.establish_connection!(
-      :access_key_id     => ey_cloud[:aws_secret_id],
-      :secret_access_key => ey_cloud[:aws_secret_key])
-  end
+def s3_connection
+  @connection ||= begin
+                    require 'fog'
+                    ey_cloud = open(File.expand_path('~/.ey-cloud.yml')) { |f| YAML::load(f) }
+                    Fog::Storage.new(:provider => 'AWS', :aws_secret_access_key => ey_cloud[:aws_secret_key],
+                                     :aws_access_key_id => ey_cloud[:aws_secret_id])
+                  end
 end
 
 def jruby_org_bucket
-  s3_connect
-  AWS::S3::Bucket.find('jruby.org')
-end
-
-def add_public_read_perm(obj)
-  return if obj.acl.grants.detect {|g| g.grantee.group == "AllUsers" && g.permission == "READ" }
-  puts "Updating #{obj.key} to be publicly readable"
-  obj.acl.grants << AWS::S3::ACL::Grant.grant(:public_read)
-  obj.acl(obj.acl)              # save the permissions
+  @bucket ||= s3_connection.directories.get('jruby.org')
 end
 
 def log_line_match(line)
@@ -85,11 +72,11 @@ def jruby_download_summary(date = nil, output = nil)
   output = File.new(output, "w") if String === output
   output ||= $stdout
   s3_connect
-  log_objects = AWS::S3::Bucket.objects('jrubylogs', :prefix => "jruby-access-log/#{date.to_s}")
+  log_objects = s3_connection.directories.get('jrubylogs', :prefix => "jruby-access-log/#{date.to_s}").files
   requests = {}
   user_agents = {}
   log_objects.each do |log|
-    log.value.each_line do |line|
+    log.body.lines.each do |line|
       match_hash = log_line_match(line)
       if match_hash && match_hash[:key] &&
           match_hash[:http_status] == 200 &&
