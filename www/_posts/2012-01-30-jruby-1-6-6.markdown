@@ -20,7 +20,7 @@ Because master keeps getting further and further away from our 1.6 branch we hav
 - Critical fixes in Random and Fiber
 - Map Scala operator methods to symbolic names ($plus, etc)
 
-### 1.6.5 Issues Resolved:
+### 1.6.6 Issues Resolved:
 
 - JRUBY-6386 time.localtime not taking any arguments
 - JRUBY-6384 yaml broken for last 1.6.6 build?
