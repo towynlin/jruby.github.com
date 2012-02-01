@@ -34,6 +34,20 @@ git push github `basename $refname`
 SCR
   end
 
+  if repo == "jruby"
+    update_file "/home/git/repositories/#{repo}.git/hooks/post-receive" do
+      action :append
+      owner "git"
+      group "git"
+      mode 0755
+      body <<-SCR
+
+echo Queueing new jruby-git build
+curl -s http://ci.jruby.org/job/jruby-git/build?token=blast-off > /dev/null
+SCR
+    end
+  end
+
   file "/home/git/repositories/#{repo}.git/git-daemon-export-ok" do
     owner "git"
     group "git"
