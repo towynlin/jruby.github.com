@@ -58,7 +58,10 @@ project this summer, join the mailing list above
 and let us know what project you have in mind. When the call for
 GSoC proposals opens, submit your idea!
 
-GSoC will be open for student proposals on March 25th (US time).
+GSoC will be open for student proposals on March 25th (US time)
+and closes on April 6. NOTE: Proposals can be edited after submission,
+so don't be afraid to submit early. We'll discuss them with you and help
+you improve the proposal up until the deadline.
 
 To apply, visit the the [JRuby GSoC Page](http://www.google-melange.com/gsoc/org/google/gsoc2012/jruby).
 If you don't have a GSoC profile, there's a big *Register* link to create one.
