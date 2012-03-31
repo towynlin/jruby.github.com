@@ -11,6 +11,10 @@ expand Ruby and to improve the state of Ruby development, and at
 the same time it represents a number of interesting and unique
 challenges.
 
+Mentors and students can apply at the [JRuby GSoC Page](http://www.google-melange.com/gsoc/org/google/gsoc2012/jruby).
+More information is provided below about GSoC ideas and what we
+expect of students and mentors.
+
 Ideas
 -----
 
