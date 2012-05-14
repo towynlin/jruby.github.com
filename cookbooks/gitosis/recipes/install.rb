@@ -27,7 +27,7 @@ end
 execute "install-gitosis" do
   cwd "/home/git/gitosis"
   command "python setup.py install"
-  not_if { File.exist?("/home/git/.gitosis.conf") }
+  not_if { File.executable?("/usr/bin/gitosis-serve") }
 end
 
 update_file "/tmp/pubkey.txt" do
