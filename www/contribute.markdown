@@ -34,6 +34,8 @@ JRuby depends on community contributions to survive. Here's how you can get invo
 
 - **HelpWanted**: [Browse][helpwanted]
 
+**Submit Code Changes** - Code changes are great.  Send them back with a [GitHub pull request][pullrequest] for review.
+
 **Fix the wiki** - We also depend on community contributions and edits to keep our documentation informative and relevant. If you have a useful FAQ or walkthrough or article, please add it to the wiki. And we welcome anyone who wants to help reorganize or edit existing content.
 
 - **Wiki**: [**Browse**]({{ site.urls.wiki }})
@@ -44,3 +46,5 @@ JRuby depends on community contributions to survive. Here's how you can get invo
 
 [helpwanted]: http://bit.ly/jruby-help-wanted
 [prezi]: http://prezi.com/tsuouxb3z4ln/jruby-hacking-guide/
+[pullrequest]: https://help.github.com/articles/using-pull-requests
+
