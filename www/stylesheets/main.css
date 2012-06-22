@@ -137,7 +137,7 @@ a:hover, a:active {
 #header h1 {
   background: url(/images/jruby-logo-sm.png) no-repeat left top;
   width: 280px;
-  height: 71px;
+  height: 80px;
   overflow: hidden;
   text-indent: -10000px;
   float: left;
@@ -184,7 +184,7 @@ a:hover, a:active {
 .home #header h1 {
   background: url(/images/jruby-logo.png) no-repeat left top;
   width: 356px;
-  height: 95px;
+  height: 102px;
   margin: 50px 0 0 50px;
 }
 .home #header h2 {
