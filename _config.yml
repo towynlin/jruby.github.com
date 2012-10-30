@@ -17,10 +17,10 @@ release:
   version: 1.7.0
   tar: http://jruby.org.s3.amazonaws.com/downloads/1.7.0/jruby-bin-1.7.0.tar.gz
   zip: http://jruby.org.s3.amazonaws.com/downloads/1.7.0/jruby-bin-1.7.0.zip
-  exe: http://jruby.org.s3.amazonaws.com/downloads/1.7.0/jruby_windows_1_7_0_preview2.exe
-  exe64: http://jruby.org.s3.amazonaws.com/downloads/1.7.0/jruby_windows_x64_1_7_0_preview2.exe
-  exejre: http://jruby.org.s3.amazonaws.com/downloads/1.7.0/jruby_windowsjre_1_7_0_preview2.exe
-  exejre64: http://jruby.org.s3.amazonaws.com/downloads/1.7.0/jruby_windows_x64_jre_1_7_0_preview2.exe
+  exe: http://jruby.org.s3.amazonaws.com/downloads/1.7.0/jruby_windows_1_7_0.exe
+  exe64: http://jruby.org.s3.amazonaws.com/downloads/1.7.0/jruby_windows_x64_1_7_0.exe
+  exejre: http://jruby.org.s3.amazonaws.com/downloads/1.7.0/jruby_windowsjre_1_7_0.exe
+  exejre64: http://jruby.org.s3.amazonaws.com/downloads/1.7.0/jruby_windows_x64_jre_1_7_0.exe
   dmg: http://jruby.org.s3.amazonaws.com/downloads/1.7.0/JRuby-1.7.0.dmg
 urls:
   s3: http://jruby.org.s3.amazonaws.com/downloads
