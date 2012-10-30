@@ -124,6 +124,12 @@ a:hover, a:active {
 #main_nav .on a {
   color: #FFF;
 }
+
+#footer {
+  vertical-align: middle;
+  text-align: center;
+}
+
 #container {
   background: url(/images/bg_subpage_head.png) repeat-x left top;
 }

@@ -2,6 +2,7 @@
 
 source "http://gems.github.com"
 source "http://rubygems.org"
+gem 'rake'
 gem "mojombo-jekyll"
 gem "rack"
 gem "request-log-analyzer"
